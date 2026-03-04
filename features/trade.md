@@ -44,7 +44,7 @@ cro.trade finds the best price across multiple Cronos DEXes and routes your trad
 
 ### Fees
 
-A **0.9% fee** is applied per trade. This fee is shared with CRO holders — by holding CRO, you benefit from the trading activity on the platform.
+A **0.9% fee** is applied per trade. This fee is shared with CRONUS holders — by holding CRONUS, you benefit from the trading activity on the platform.
 
 ## Trade Feed
 
