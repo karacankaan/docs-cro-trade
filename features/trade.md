@@ -42,6 +42,10 @@ The swap panel lets you trade tokens directly:
 
 cro.trade finds the best price across multiple Cronos DEXes and routes your trade through the optimal path. Split routes across multiple DEXes are supported when it results in a better price.
 
+### Fees
+
+A **0.9% fee** is applied per trade. This fee is shared with CRO holders — by holding CRO, you benefit from the trading activity on the platform.
+
 ## Trade Feed
 
 A real-time feed of all trades happening on the current token. Each entry shows:
