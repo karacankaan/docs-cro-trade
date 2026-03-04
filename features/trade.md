@@ -6,28 +6,28 @@ The Trade page is where you buy and sell tokens. It combines a live chart, trade
 
 Navigate to a token's trade page by:
 
-- Tapping a token card on the Explore page
-- Tapping a token in your Watchlist or Wallet
-- Searching for a token by name or address
-- Navigating directly to `cro.trade/trade/<token-address>`
+* Tapping a token card on the Explore page
+* Tapping a token in your Watchlist or Wallet
+* Searching for a token by name or address
+* Navigating directly to `cro.trade/<token-address>`
 
 ## Chart
 
 The trade page features a live candlestick chart powered by real-time data.
 
-- **Multiple timeframes**: 1s, 5s, 15s, 1m, 5m, 15m, 1h, 4h, 1D, 1W
-- **Drawing tools**: Trendlines, horizontal lines, and other drawing tools
-- **Live candles**: The current candle updates in real-time as trades happen
+* **Multiple timeframes**: 1s, 5s, 15s, 1m, 5m, 15m, 1h, 4h, 1D, 1W
+* **Drawing tools**: Trendlines, horizontal lines, and other drawing tools
+* **Live candles**: The current candle updates in real-time as trades happen
 
 ## Token Stats
 
 Below the chart, you'll see key token metrics:
 
-- **Price** — current USD price
-- **Market Cap** — total token value
-- **Liquidity** — available liquidity in pools
-- **24h Volume** — trading volume over the last day
-- **Social links** — Twitter, Telegram, Discord, and website links when available
+* **Price** — current USD price
+* **Market Cap** — total token value
+* **Liquidity** — available liquidity in pools
+* **24h Volume** — trading volume over the last day
+* **Social links** — X, Telegram, Discord, and website links when available
 
 ## Buy & Sell
 
@@ -50,11 +50,11 @@ A **0.9% fee** is applied per trade. This fee is shared with CRO holders — by 
 
 A real-time feed of all trades happening on the current token. Each entry shows:
 
-- **Buy/Sell** indicator (green for buys, red for sells)
-- **Amount** traded
-- **USD value**
-- **Trader address** — tap to view their profile
-- **Time** — when the trade happened
+* **Buy/Sell** indicator (green for buys, red for sells)
+* **Amount** traded
+* **USD value**
+* **Trader address** — tap to view their profile
+* **Time** — when the trade happened
 
 The feed updates live as trades occur on-chain.
 

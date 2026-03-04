@@ -22,7 +22,7 @@ cro.trade is a fast, mobile-first trading app where you can:
 ## Quick Links
 
 * **App**: [cro.trade](https://cro.trade)
-* X: [@crotrade](https://x.com/crotrade)
+* **X**: [@crotrade](https://x.com/crotrade)
 
 ***
 
