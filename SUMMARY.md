@@ -17,3 +17,8 @@
 * [Profiles](features/profiles.md)
 * [Search](features/search.md)
 * [Wallet](features/wallet.md)
+
+## Legal
+
+* [Privacy & Terms](privacy-and-terms.md)
+* [Acknowledgments](acknowledgments.md)

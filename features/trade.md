@@ -13,7 +13,7 @@ Navigate to a token's trade page by:
 
 ## Chart
 
-The trade page features a live candlestick chart powered by real-time data. cro.trade runs on [TradingView](https://www.tradingview.com/) charts. Trusted by millions of traders as the top charting platform, TradingView can help you dive into [BTCUSD charts](https://www.tradingview.com/symbols/BTCUSD/) analysis, follow the [crypto](https://www.tradingview.com/crypto-screener/) universe, and break down price moves with custom indicators and additional tools.
+The trade page features a live candlestick chart powered by real-time data.
 
 * **Multiple timeframes**: 1s, 5s, 15s, 1m, 5m, 15m, 1h, 4h, 1D, 1W
 * **Drawing tools**: Trendlines, horizontal lines, and other drawing tools
