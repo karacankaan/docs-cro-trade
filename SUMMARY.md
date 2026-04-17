@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [TradingView](tradingview.md)
 
 ## Getting Started
 
@@ -21,4 +22,3 @@
 ## Legal
 
 * [Privacy & Terms](privacy-and-terms.md)
-* [TradingView](tradingview.md)
