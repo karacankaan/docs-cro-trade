@@ -21,4 +21,4 @@
 ## Legal
 
 * [Privacy & Terms](privacy-and-terms.md)
-* [Acknowledgments](acknowledgments.md)
+* [TradingView](tradingview.md)
