@@ -1,63 +1,87 @@
 # Trade
 
-The Trade page is where you buy and sell tokens. It combines a live chart, trade feed, token stats, and a swap interface into a single view.
+The Trade page is where you buy and sell Cronos tokens. It combines a live chart, token stats, a swap interface, and a real-time trade feed in a single view.
 
 ## Opening a Trade Page
 
-Navigate to a token's trade page by:
+Open a token's trade page by:
 
-* Tapping a token card on the Explore page
-* Tapping a token in your Watchlist or Wallet
+* Tapping a token card on Explore, your Watchlist, or your portfolio
 * Searching for a token by name or address
 * Navigating directly to `cro.trade/<token-address>`
 
 ## Chart
 
-The trade page features a live candlestick chart powered by real-time data.
+A live candlestick chart powered by TradingView and real-time data.
 
-* **Multiple timeframes**: 1s, 5s, 15s, 1m, 5m, 15m, 1h, 4h, 1D, 1W
-* **Drawing tools**: Trendlines, horizontal lines, and other drawing tools
-* **Live candles**: The current candle updates in real-time as trades happen
+* **Many timeframes** — from seconds (1s, 5s, 15s, 30s) through minutes and hours up to **1D, 1W, and 1mo**
+* **Live candles** — the current candle updates in real-time as trades happen
+* **Maker filter** — isolate an individual trader's buys/sells on the chart
+* Your selected timeframe is remembered for next time
 
 ## Token Stats
 
-Below the chart, you'll see key token metrics:
+Around the chart you'll see key metrics:
 
-* **Price** — current USD price
-* **Market Cap** — total token value
+* **Price** — current USD price (tiny prices use compact subscript notation)
+* **Price change** — for the selected timeframe
+* **Market Cap**
 * **Liquidity** — available liquidity in pools
-* **24h Volume** — trading volume over the last day
-* **Social links** — X, Telegram, Discord, and website links when available
+* **Volume** — for 5m / 1h / 6h / 24h, with the buy vs sell split and trade counts
+* **Age** and **holder count** when available
 
 ## Buy & Sell
 
-The swap panel lets you trade tokens directly:
+The swap panel lets you trade directly:
 
 1. **Select direction** — toggle between Buy and Sell
-2. **Enter amount** — type the amount you want to trade, or use quick-select buttons (25%, 50%, 75%, 100%)
-3. **Review** — see the estimated output, price impact, and route
-4. **Confirm** — approve and execute the trade through your wallet
+2. **Choose payment token** — pay with **WCRO**, **USDC**, or **USDT**
+3. **Enter amount** — type it, or use the quick-amount buttons
+4. **Review** — see the estimated output (already net of the routing fee)
+5. **Confirm** — approve the token (first time) and execute the swap in your wallet
 
 ### Smart Routing
 
-cro.trade finds the best price across multiple Cronos DEXes and routes your trade through the optimal path. Split routes across multiple DEXes are supported when it results in a better price.
+cro.trade checks prices across multiple Cronos DEXes and bonding curves and routes your trade through the best path automatically.
+
+### Slippage
+
+Slippage defaults to **Auto** (about 0.5%). You can set a custom tolerance, which is remembered for future trades.
 
 ### Fees
 
-A **0.9% fee** is applied per trade. This fee is shared with CRONUS holders — by holding CRONUS, you benefit from the trading activity on the platform.
+A **0.9% routing fee** is applied per trade. This fee funds protocol fee sharing for CRONUS holders — see [Fees](../reference/fees.md) and [Rewards](../rewards/README.md).
+
+> **Note:** Limit orders and take-profit / stop-loss are available for [Perps](../perps/README.md), not for spot trades. Spot trades execute at the current market price.
+
+## Token Info
+
+Open the token info panel for a deeper look:
+
+* **Overview** — price, market cap, liquidity, age
+* **Supply & holders** — total/circulating supply and holder count
+* **On-chain details** — token address (copyable), creator/dev address, and any fee-on-transfer tax
+* **Security** — a real-time risk check showing the number of detected risks
+* **Socials & links** — X, Telegram, Discord, and website
+* **Creator's other tokens** — other tokens launched by the same deployer
+* **Price performance** — all-time high/low and period high/low
 
 ## Trade Feed
 
-A real-time feed of all trades happening on the current token. Each entry shows:
+A real-time feed of all trades on the current token. Each entry shows:
 
 * **Buy/Sell** indicator (green for buys, red for sells)
-* **Amount** traded
-* **USD value**
-* **Trader address** — tap to view their profile
-* **Time** — when the trade happened
+* **Amount** and **USD value**
+* **Trader** — tap their avatar to view their profile
+* **Time**
 
-The feed updates live as trades occur on-chain.
+Tap a maker to filter the feed (and chart marks) to just their trades.
 
-## Trade Detail
+## Holdings & Holders
 
-Tap any trade in the feed to see more details, including the exact amounts, token pair, and transaction link to the block explorer.
+* **Holdings** — tokens you currently hold, with balance, value, and P&L
+* **Holders** — the token's top holders and their share of supply
+
+## Amounts & Direction
+
+Trade amounts are always shown as positive values; the buy/sell indicator tells you the direction. The token's logo and links are derived from its on-chain address.

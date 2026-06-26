@@ -1,13 +1,13 @@
 # Install the App
 
-cro.trade is a Progressive Web App (PWA), which means you can install it directly to your phone's home screen for a native app-like experience.
+cro.trade is a Progressive Web App (PWA), so you can install it directly to your phone's home screen for a native app-like experience.
 
 ## Why Install?
 
-- **Full-screen mode** — no browser toolbar taking up space
-- **Instant access** — launch from your home screen like any app
-- **Faster loading** — cached assets for quicker startup
-- **Push-ready** — app is ready for notifications in future updates
+* **Full-screen mode** — no browser toolbar taking up space
+* **Instant access** — launch from your home screen like any app
+* **Faster loading** — cached assets for quicker startup
+* **Push notifications** — get alerts for trades, order fills, price targets, and prediction results (see [Notifications](../account/notifications.md))
 
 ## Install on iPhone (Safari)
 
@@ -31,4 +31,4 @@ cro.trade is a Progressive Web App (PWA), which means you can install it directl
 
 ## After Installing
 
-The app will appear on your home screen. Tap it to launch cro.trade in full-screen mode, just like a native app.
+The app appears on your home screen. Launch it for a full-screen experience. To receive alerts, open **Settings → Notifications** and enable push notifications, then grant permission when prompted.

@@ -1,29 +1,41 @@
 # Features Overview
 
-cro.trade is organized around five main sections, accessible from the bottom navigation bar.
+cro.trade is organized around a main navigation bar plus a dedicated search. Everything is real-time and works on both mobile and desktop.
 
 ## Navigation
 
 | Tab | Description |
 | --- | --- |
-| **Explore** | Discover trending tokens, top gainers, and new launches |
-| **Trade** | Buy and sell tokens with live charts and trade feed |
-| **Launchpad** | Track bonding curve tokens and their graduation progress |
-| **Profiles** | Follow traders and view their portfolios |
-| **Wallet** | View your holdings, P\&L, trade history, and send tokens |
+| **Explore** | Discover trending tokens, top gainers, new launches, your watchlist, and perps markets |
+| **Predict** | Prediction markets — sports, crypto, economy, and politics |
+| **Feed** | Social trade feed — follow traders and share insights (rolling out) |
+| **Perps** | Perpetual futures with leverage |
+| **Profile** | Your portfolio, holdings, trade history, rewards, and settings |
+| **Search** | Find tokens, traders, and perps markets from anywhere |
+
+## Market Types
+
+cro.trade supports three kinds of trading under one login:
+
+* **Spot** — buy and sell Cronos tokens at the current market price. See [Trade](trade.md) and [Launchpad](launchpad.md).
+* **Perpetuals** — leveraged long/short positions on crypto, stocks, commodities, and forex. See [Perps](../perps/README.md).
+* **Prediction markets** — buy YES/NO shares on real-world outcomes. See [Predict](../predict/README.md).
 
 ## Common Features
 
 These are available across the app:
 
-- **Search** — find any token by name, ticker, or contract address. Find traders by username or .cro name.
-- **Watchlist** — star tokens to add them to your personal watchlist, accessible from the Explore page.
-- **Real-time updates** — prices, volumes, and trades stream live without needing to refresh.
-- **Token cards** — tap any token card throughout the app to open its trade page.
+* **Search** — find any token by name, symbol, or contract address; find traders by username, .cro name, or address; find perps markets.
+* **Watchlist** — star tokens to add them to your personal watchlist, accessible from Explore.
+* **Real-time updates** — prices, volumes, trades, order books, and live scores stream without refreshing.
+* **Profiles & following** — tap any trader to view their profile, holdings, and history, and follow them.
+* **Portfolio & history** — a unified view of your spot, perps, and prediction activity with P&L analytics.
+* **Notifications** — push alerts for trades, order fills, price targets, and prediction results.
+* **Rewards** — protocol fee sharing for CRONUS holders and referral earnings.
 
 ## Desktop vs Mobile
 
-cro.trade adapts its layout based on your screen size:
+cro.trade adapts to your screen size:
 
-- **Mobile**: Bottom navigation bar, swipe-friendly panels, compact token cards
-- **Desktop (PC)**: Full-width layout with side panels, expanded charts, and a persistent header
+* **Mobile**: bottom navigation bar, swipe-friendly panels, compact cards, and the installable PWA app
+* **Desktop**: full-width layout with side panels, expanded charts, order books, and a persistent header

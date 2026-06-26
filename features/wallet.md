@@ -1,47 +1,49 @@
-# Wallet
+# Wallet & Portfolio
 
-The Wallet page gives you a complete view of your portfolio on Cronos.
+Your **Profile** tab gives you a complete view of your portfolio across everything you trade on cro.trade — spot tokens, perps, and predictions — plus your full history and analytics.
 
 ## Portfolio Overview
 
-At the top of the Wallet page, you'll see:
+At the top you'll see:
 
-- **Total portfolio value** — the combined USD value of all your token holdings
-- **CRO balance** — your native CRO balance
+* **Total portfolio value** — your combined value across spot holdings, perps, and predictions
+* **CRO balance** — your native CRO, with receive/send actions
+* A **portfolio chart** with selectable ranges (1D, 7D, 30D, 90D, 1Y, All) so you can see how your value has changed over time
 
 ## Holdings
 
-A list of all tokens in your wallet, showing:
+A list of the tokens you hold on Cronos, each showing:
 
-- Token name and symbol
-- Amount held
-- Current USD value
-- Price change
-- Profit & Loss (P\&L) — how much you've gained or lost on each token
+* Token name and symbol
+* Amount held
+* Current USD value and share of your portfolio
+* Price change and profit & loss (P&L)
 
-Tap any token in your holdings to go to its trade page.
+Tap any holding to open its [trade page](trade.md).
 
 ## Trade History
 
-View your past trades with a detailed log of every swap you've made:
+A unified log of your activity across spot, perps, and predictions. View it two ways:
 
-- **Token pair** — what you traded
-- **Direction** — buy or sell
-- **Amount and value** — how much you traded and its USD value at the time
-- **Timestamp** — when the trade happened
+* **List view** — each trade with the market, direction (buy/sell), amount, price, value, and time, with filters and a profit/loss badge on closed positions
+* **Calendar heatmap** — a month-at-a-glance view of your realized P&L, with green for profitable days and red for losses; tap a day to filter the list to that period
 
-Scroll through your history or load more trades as needed.
+History covers your Cronos spot trades, perps, and predictions in one place.
 
-## Send Tokens
+## Sending Tokens
 
-Transfer tokens to another wallet directly from the Wallet page:
+Transfer tokens to another wallet directly:
 
-1. Tap the **Send** button
-2. Select the token you want to send
-3. Enter the recipient address (or .cro name)
+1. Tap **Send**
+2. Choose the token
+3. Enter the recipient (an address or a `.cro` name)
 4. Enter the amount
-5. Confirm the transaction in your wallet
+5. Confirm in your wallet
 
-## Connecting Required
+## Funding Perps & Predict
 
-The Wallet page requires a connected wallet. If you haven't connected yet, you'll see a prompt to [connect your wallet](../getting-started/connect-wallet.md).
+Perps and predictions use **USDC**. Deposit, withdraw, and move funds between Perps and Predict from their wallet panels — see [Perps](../perps/README.md#funding-your-perps-account) and [Predict](../predict/README.md#funding-predict).
+
+## Account & Wallets
+
+Manage your username, linked sign-in methods, and your wallets (you can hold up to 20) from Settings — see [Account & Wallets](../account/wallets.md).

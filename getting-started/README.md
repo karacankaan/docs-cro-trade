@@ -1,20 +1,31 @@
 # Getting Started
 
-Getting started with cro.trade takes less than a minute. There's no account to create — just connect your wallet and you're in.
+Getting started with cro.trade takes less than a minute. There's no lengthy sign-up — sign in or connect a wallet and you're in.
 
 ## Steps
 
-1. **Visit** [cro.trade](https://cro.trade) on your browser
-2. **Connect your wallet** — tap the wallet button in the header
-3. **Start exploring** — browse trending tokens, check the launchpad, or search for a specific token
+1. **Visit** [cro.trade](https://cro.trade) in your browser
+2. **Sign in** — connect an existing wallet, or sign in with email, Google, Apple, or a passkey (a wallet is created for you automatically)
+3. **Start exploring** — browse trending tokens, open a perp, check prediction markets, or search for a specific token
 
-## Optional
+## What You Can Do
 
-- [Install the App](install-app.md) on your phone for the best experience
-- Add tokens to your **Watchlist** to track them across sessions
-- **Follow** traders to keep up with their activity
+* **Spot trade** tokens on Cronos — see [Trade](../features/trade.md)
+* **Trade perpetual futures** with leverage — see [Perps](../perps/README.md)
+* **Bet on real-world outcomes** — see [Predict](../predict/README.md)
+* **Track your portfolio** and history — see [Wallet & Portfolio](../features/wallet.md)
+* **Earn fee-sharing rewards** as a CRONUS holder — see [Rewards](../rewards/README.md)
+
+## Optional Setup
+
+* [Install the App](install-app.md) on your phone for the best experience
+* Add tokens to your **Watchlist** to track them across sessions
+* **Follow** traders to keep up with their activity in the [Feed](../social/feed.md)
+* Turn on [Notifications](../account/notifications.md) for trade and price alerts
+* Secure your account with [2FA or a passkey](../account/security.md)
 
 ## Requirements
 
-- A Cronos-compatible wallet (MetaMask, Rabby, or WalletConnect)
-- CRO for gas fees when trading
+* A modern browser, or the installed [PWA app](install-app.md)
+* For spot trading on Cronos: a small amount of **CRO** for gas
+* For perps and predictions: **USDC**, which you can fund from Cronos or Arbitrum (see the relevant funding sections)

@@ -1,8 +1,12 @@
 # Connect Your Wallet
 
-cro.trade supports multiple ways to connect your wallet.
+cro.trade supports both external crypto wallets and simple social sign-in. Either way, you end up with a self-custodial wallet you control.
 
-## Supported Wallets
+## Sign-In Methods
+
+You can get started in two ways:
+
+### Connect an External Wallet
 
 | Wallet | Type |
 | --- | --- |
@@ -10,27 +14,35 @@ cro.trade supports multiple ways to connect your wallet.
 | **Rabby Wallet** | Browser extension |
 | **WalletConnect** | QR code / Mobile wallets |
 
-## How to Connect
+1. Tap **Connect** in the header
+2. Choose your wallet
+3. Approve the connection
+4. Your address appears in the header — you're connected
 
-1. Tap the **Connect** button in the top-right corner of the header
-2. Choose your preferred wallet from the list
-3. Approve the connection in your wallet
-4. You're connected — your address will appear in the header
+### Sign In Without a Wallet
 
-## Alternative Login Methods
+If you don't have a crypto wallet, you can sign in with:
 
-You can also sign in with:
+* **Email** — enter your email and verify with a one-time code
+* **Google** — sign in with your Google account
+* **Apple** — sign in with your Apple ID
+* **Passkey** — use biometric authentication (Face ID, Touch ID, or a security key)
 
-- **Email** — enter your email and verify with a one-time code
-- **Google** — sign in with your Google account
-- **Passkey** — use biometric authentication (Face ID, fingerprint, etc.)
+These methods automatically create a secure, self-custodial wallet for you, so you can start trading without installing a browser extension.
 
-These methods create a wallet for you automatically, so you can start using cro.trade without installing a browser extension.
+## Multiple Wallets
 
-## Switching Networks
+cro.trade supports **up to 20 wallets** per account. You can create new wallets, import existing ones with a private key, and switch between them at any time. See [Account & Wallets](../account/wallets.md) for details.
 
-cro.trade is built for the **Cronos mainnet** (Chain ID: 25). When you connect, the app will automatically prompt you to switch to Cronos if you're on a different network.
+## Linking Accounts
+
+You can link email, Google, and Apple to the same account so you're able to sign in different ways. Manage these from **Settings → Linked Accounts**.
+
+## Networks
+
+* **Spot trading** runs on **Cronos mainnet** (Chain ID: 25). The app prompts you to switch networks if needed.
+* **Perps** and **Predict** settle in **USDC** — funding is handled in-app, with no manual network switching required.
 
 ## Disconnecting
 
-Tap your wallet address in the header, then tap **Disconnect** to sign out.
+Tap your profile/wallet in the header (or go to **Settings → Account → Wallets**), then choose **Disconnect** or switch to another wallet.

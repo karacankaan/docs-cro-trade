@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [TradingView](tradingview.md)
 
 ## Getting Started
 
@@ -9,15 +8,44 @@
 * [Connect Your Wallet](getting-started/connect-wallet.md)
 * [Install the App](getting-started/install-app.md)
 
-## Features
+## Spot Trading
 
-* [Features Overview](features/README.md)
 * [Explore](features/explore.md)
 * [Trade](features/trade.md)
 * [Launchpad](features/launchpad.md)
+
+## Perpetuals
+
+* [Perps Overview](perps/README.md)
+
+## Prediction Markets
+
+* [Predict](predict/README.md)
+* [Sports & Live Scores](predict/sports.md)
+
+## Social
+
+* [Feed](social/feed.md)
 * [Profiles](features/profiles.md)
+
+## Portfolio & Rewards
+
+* [Wallet & Portfolio](features/wallet.md)
+* [Rewards & Fee Sharing](rewards/README.md)
+* [Referrals](rewards/referrals.md)
+
+## Account & Settings
+
+* [Account & Wallets](account/wallets.md)
+* [Security](account/security.md)
+* [Notifications](account/notifications.md)
+* [Settings](account/settings.md)
+
+## Help & Reference
+
 * [Search](features/search.md)
-* [Wallet](features/wallet.md)
+* [Fees](reference/fees.md)
+* [TradingView](tradingview.md)
 
 ## Legal
 

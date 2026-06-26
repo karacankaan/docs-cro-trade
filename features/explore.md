@@ -1,52 +1,64 @@
 # Explore
 
-The Explore page is your starting point for discovering tokens on Cronos. It shows real-time market data organized into tabs.
+The Explore page is your starting point for discovering markets on Cronos. It's organized into sections you can switch between, and everything updates in real-time.
 
-## Tabs
+## Sections
 
-### HOT (Trending)
+### Discover
 
-Tokens ranked by recent trading volume. The list updates in real-time as trades happen across Cronos DEXes.
+The default view, with three sub-tabs:
 
-Each token card shows:
+#### HOT (Trending)
 
-- Token name and symbol
-- Current price in USD
-- Price change percentage
-- Buy and sell volume bars (color-coded green/red)
-- Total volume for the selected timeframe
+Tokens ranked by recent trading activity. The list updates live as trades happen across Cronos DEXes. Each token card shows:
 
-#### Timeframes
+* Token logo, name, and symbol
+* Current price in USD
+* Price change percentage
+* Volume, market cap, and liquidity
+* Token age
+* Star icon to add to your watchlist
+* Social links and a copy-address button
 
-Switch between different time windows to see volume and price changes:
+#### Gainers
 
-- **5m** — last 5 minutes
-- **1h** — last hour
-- **6h** — last 6 hours
-- **24h** — last 24 hours
+Tokens sorted by price change — see which tokens are moving the most.
 
-### Gainers
+#### Launchpad
 
-Tokens sorted by price change over the selected timeframe. See which tokens are moving the most, both up and down.
+Newly launched tokens on their bonding curve, grouped into three stages:
 
-### New
+* **New** — freshly created tokens just starting their curve
+* **Pre-Graduate** — tokens that have made progress toward graduation
+* **Graduated** — tokens that completed their curve and now trade on a DEX
 
-Recently created tokens appearing on Cronos for the first time. Useful for spotting new launches early.
+Each launchpad card shows the launch platform badge (CroFun, AgentFun, WolfStreet, or PuushFun), a bonding-curve progress bar, volume, market cap, and a tax indicator for fee-on-transfer tokens. See [Launchpad](launchpad.md) for full details.
 
 ### Watchlist
 
-Your personal list of saved tokens. Tap the star icon on any token card to add or remove it from your watchlist.
+Your personal list of saved tokens. Tap the star icon on any token card to add or remove it. Your watchlist is tied to your account and syncs across devices when you're signed in.
 
-Watchlist data is tied to your connected wallet and syncs across devices when you're logged in.
+### Perps
+
+A quick view of perpetual futures markets — crypto, stocks, and other markets — with funding rate, open interest, 24h volume, and a mini price chart on each card. Tap a market to open the full perps trading page. See [Perps](../perps/README.md).
+
+## Timeframes
+
+On the trending and gainers views you can switch the time window used for volume and price change:
+
+* **5m** — last 5 minutes
+* **1h** — last hour
+* **6h** — last 6 hours
+* **24h** — last 24 hours
 
 ## Token Cards
 
-Every token card in the Explore page is interactive:
+Every token card is interactive:
 
-- **Tap** the card to open the token's trade page
-- **Star icon** to add/remove from watchlist
-- **Volume bars** show the buy/sell ratio visually
+* **Tap** the card to open the token's trade page
+* **Star icon** to add/remove from your watchlist
+* **Volume / progress bars** show buy/sell activity or graduation progress visually
 
 ## Real-Time Updates
 
-All data on the Explore page streams live. You don't need to refresh — prices, volumes, and rankings update automatically as trades happen.
+All data on Explore streams live — you don't need to refresh. Prices, volumes, and rankings update automatically as trades happen on-chain.

@@ -1,29 +1,34 @@
 # Welcome
 
-**cro.trade** is a real-time trading platform built for the Cronos blockchain. It gives you everything you need to discover, trade, and track tokens — all in one place.
+**cro.trade** is a real-time trading platform built for the Cronos ecosystem. It brings spot trading, perpetual futures, prediction markets, and a social trading feed together in one fast, mobile-first app.
 
 ## What is cro.trade?
 
-cro.trade is a fast, mobile-first trading app where you can:
+cro.trade is where you can:
 
-* **Explore** trending tokens, biggest gainers, and newly launched projects
-* **Trade** any token on Cronos with live charts and a real-time trade feed
-* **Track launches** on the Launchpad with bonding curve progress and graduation tracking
-* **Follow traders** and view their portfolios
-* **Manage your wallet** with portfolio overview, P\&L tracking, and trade history
+* **Explore** trending tokens, top gainers, and new launches on Cronos
+* **Trade** any token with live charts, smart routing, and a real-time trade feed
+* **Track launches** on the Launchpad with bonding-curve progress and graduation
+* **Trade Perps** — perpetual futures on crypto, stocks, commodities, and forex with up to 50x leverage
+* **Predict** real-world outcomes — sports, crypto, economy, and politics prediction markets
+* **Follow traders** and share insights on the social Feed
+* **Manage your portfolio** with holdings, P&L analytics, and a unified trade history
+* **Earn rewards** — protocol fee sharing for CRONUS holders, plus referral earnings
 
 ## Key Highlights
 
-* **Real-time data** — prices, volumes, and trades update live via WebSocket
-* **Cronos native** — built specifically for the Cronos ecosystem
-* **Mobile-first** — installable as an app on your phone with full PWA support
-* **No sign-up required** — connect your wallet and start trading immediately
+* **Real-time everything** — prices, volumes, trades, order books, and scores stream live via WebSocket
+* **One account, many markets** — spot, perps, and predictions share a single login
+* **Flexible sign-in** — connect an external wallet or sign in with email, Google, Apple, or a passkey
+* **Mobile-first** — installable as a PWA on your phone with push notifications
+* **Self-custodial** — your funds stay in wallets you control
 
 ## Quick Links
 
 * **App**: [cro.trade](https://cro.trade)
 * **X**: [@crotrade](https://x.com/crotrade)
+* **Discord**: [discord.gg/crotrade](https://discord.gg/crotrade)
 
 ***
 
-Ready to get started? Head to [Connect Your Wallet](getting-started/connect-wallet.md) to begin.
+Ready to start? Head to [Getting Started](getting-started/README.md).
