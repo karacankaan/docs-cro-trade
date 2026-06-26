@@ -1,6 +1,6 @@
 # Predict
 
-**Predict** is cro.trade's prediction markets. You buy and sell shares on the outcome of real-world events — sports, crypto, economy, and politics — and cash out when you're right.
+**Predict** is cro.trade's prediction markets. You trade shares on the outcome of real-world events — sports, crypto, economy, and politics — and cash out when you're right.
 
 Open the **Predict** tab in the navigation bar.
 
@@ -28,7 +28,7 @@ Markets are organized into categories you can tab between:
 
 You can search markets by name and sort by trending, volume, liquidity, newest, or ending soon.
 
-## Placing a Bet
+## Placing a Trade
 
 1. Open a market to see its outcomes, current prices, order book, and recent activity
 2. Choose your **outcome** (e.g. YES or NO; for some sports markets, Home / Draw / Away)

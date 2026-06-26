@@ -27,14 +27,10 @@ Distributions are paid in **CRONUS** and are tied to your CRONUS holdings.
 
 Once claimed, your claimable balance resets and your **Total claimed** updates.
 
-## 100% Fee-Funded
-
-> **Transparent.** No tokens are minted or inflated. All distributions come exclusively from protocol trading fees via on-chain buybacks. Every transaction is publicly verifiable on the Cronos blockchain.
-
 ## Share Your Earnings
 
 Tap **Share** to generate a shareable card showing your total earned, claimable, and total claimed — with your avatar and a link back to cro.trade.
 
 ## How Fees Are Generated
 
-Spot trades on cro.trade carry a small fee (see [Fees](../reference/fees.md)). A portion funds the buybacks that back these CRONUS distributions, so the more the platform trades, the larger the pool shared with holders.
+Trading on cro.trade carries a small fee (see [Fees](../reference/fees.md)). Protocol trading fees are shared with CRONUS holders, so the more the platform trades, the larger the pool shared with holders.

@@ -28,7 +28,7 @@ If you don't have a crypto wallet, you can sign in with:
 * **Apple** — sign in with your Apple ID
 * **Passkey** — use biometric authentication (Face ID, Touch ID, or a security key)
 
-These methods automatically create a secure, self-custodial wallet for you, so you can start trading without installing a browser extension.
+These methods automatically create a self-custodial wallet for you, so you can start trading without installing a browser extension.
 
 ## Multiple Wallets
 

@@ -28,7 +28,7 @@ Tap a wallet to:
 
 * **Switch** to make it your active wallet
 * **Copy address**
-* **Export private key** — available for embedded wallets, so you always control your keys
+* **Export private key** — available for embedded wallets, so you control your keys
 * **Create a new wallet** — generates a fresh embedded wallet and switches to it
 * **Import a private key** — paste a key to add an existing wallet
 * **Remove** a created or imported wallet, or **Disconnect** an external one
@@ -52,4 +52,4 @@ You can link and unlink Google and Apple (you'll be reminded to keep at least on
 
 ## Disconnecting
 
-Tap **Disconnect** to sign out. Your funds stay safe on-chain — you'll just need to reconnect to trade again.
+Tap **Disconnect** to sign out. Your funds remain on-chain — you'll just need to reconnect to trade again.

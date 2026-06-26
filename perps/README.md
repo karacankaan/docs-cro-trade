@@ -1,6 +1,6 @@
 # Perps Overview
 
-**Perps** (perpetual futures) let you trade with leverage — going long (betting the price rises) or short (betting it falls) — without an expiry date. Perps on cro.trade settle in **USDC**.
+**Perps** (perpetual futures) let you trade with leverage — going long (expecting the price to rise) or short (expecting it to fall) — without an expiry date. Perps on cro.trade settle in **USDC**.
 
 Open the **Perps** tab in the navigation bar to get started.
 

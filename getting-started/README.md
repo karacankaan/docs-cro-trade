@@ -12,7 +12,7 @@ Getting started with cro.trade takes less than a minute. There's no lengthy sign
 
 * **Spot trade** tokens on Cronos — see [Trade](../features/trade.md)
 * **Trade perpetual futures** with leverage — see [Perps](../perps/README.md)
-* **Bet on real-world outcomes** — see [Predict](../predict/README.md)
+* **Trade on real-world outcomes** — see [Predict](../predict/README.md)
 * **Track your portfolio** and history — see [Wallet & Portfolio](../features/wallet.md)
 * **Earn fee-sharing rewards** as a CRONUS holder — see [Rewards](../rewards/README.md)
 

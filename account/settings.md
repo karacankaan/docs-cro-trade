@@ -33,4 +33,4 @@ Language, currency, and default slippage options are shown here and are **coming
 
 ## Disconnect
 
-Tap **Disconnect** to sign out. Your funds stay safe on-chain — reconnect any time to keep trading.
+Tap **Disconnect** to sign out. Your funds remain on-chain — reconnect any time to keep trading.

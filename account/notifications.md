@@ -25,7 +25,7 @@ Dedicated alerts for [Predict](../predict/README.md):
 
 * **Results** — when a market you hold a position in resolves
 * **Live Goals** — goal alerts for matches you follow
-* **Your Score Hits** — when a live score matches an exact-score bet you hold
+* **Your Score Hits** — when a live score matches an exact-score prediction you hold
 * **Match Status** — kick-off, half-time, and full-time
 * **Price Alerts** — when a market hits your target probability
 

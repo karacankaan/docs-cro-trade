@@ -50,7 +50,7 @@ Slippage defaults to **Auto** (about 0.5%). You can set a custom tolerance, whic
 
 ### Fees
 
-A **0.9% routing fee** is applied per trade. This fee funds protocol fee sharing for CRONUS holders — see [Fees](../reference/fees.md) and [Rewards](../rewards/README.md).
+A **0.9% routing fee** is applied per trade — see [Fees](../reference/fees.md) and [Rewards](../rewards/README.md).
 
 > **Note:** Limit orders and take-profit / stop-loss are available for [Perps](../perps/README.md), not for spot trades. Spot trades execute at the current market price.
 
