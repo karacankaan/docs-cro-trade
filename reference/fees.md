@@ -7,8 +7,6 @@ A summary of the fees you'll encounter across cro.trade. Fees differ by market t
 * **Trading fee: 0.9%** per trade, built into your quote
 * You also pay the underlying network gas and any DEX/pool fees, which the [smart router](../features/trade.md) factors into your price
 
-A portion of spot fees funds the buybacks behind [CRONUS fee sharing](../rewards/README.md), so trading activity flows back to CRONUS holders.
-
 ## Perpetuals
 
 * **Trading fee: 0.06%** for both maker and taker orders
@@ -31,4 +29,4 @@ See [Predict](../predict/README.md). The minimum order is **$1**.
 
 ## CRONUS Fee Sharing
 
-cro.trade distributes protocol trading fees to CRONUS holders. No tokens are minted — all distributions come from trading fees via on-chain buybacks. See [Rewards & Fee Sharing](../rewards/README.md).
+cro.trade shares protocol fees with CRONUS holders. See [Rewards & Fee Sharing](../rewards/README.md) for details.
