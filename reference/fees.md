@@ -13,7 +13,6 @@ A portion of spot fees funds the buybacks behind [CRONUS fee sharing](../rewards
 
 * **Trading fee: 0.06%** for both maker and taker orders
 * **Funding** payments exchanged between longs and shorts periodically (not a platform fee — it can be positive or negative for you)
-* A **liquidation penalty** if a position is force-closed
 
 See [Perps Overview](../perps/README.md).
 

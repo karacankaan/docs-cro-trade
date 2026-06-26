@@ -98,6 +98,6 @@ Perps charts support standard timeframes (1m, 5m, 15m, 1h, 4h, 1d, 1w, 1mo) with
 
 ## Fees
 
-Perps use a maker/taker fee model plus funding, and a penalty on liquidation. See [Fees](../reference/fees.md) for the full breakdown.
+Perps use a flat **0.06%** maker/taker fee, plus periodic funding payments between longs and shorts. See [Fees](../reference/fees.md) for the full breakdown.
 
 > **Risk note:** Leverage amplifies both gains and losses, and positions can be fully liquidated. Trade with care and only risk what you can afford to lose.
