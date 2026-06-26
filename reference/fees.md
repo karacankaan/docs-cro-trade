@@ -11,9 +11,7 @@ A portion of spot fees funds the buybacks behind [CRONUS fee sharing](../rewards
 
 ## Perpetuals
 
-Perps use a standard fee model:
-
-* **Taker** fees on orders that fill immediately, with **maker** orders typically cheaper
+* **Trading fee: 0.06%** for both maker and taker orders
 * **Funding** payments exchanged between longs and shorts periodically (not a platform fee — it can be positive or negative for you)
 * A **liquidation penalty** if a position is force-closed
 
@@ -21,8 +19,9 @@ See [Perps Overview](../perps/README.md).
 
 ## Prediction Markets
 
+* **Trading fees: 1% taker / 0.5% maker**
 * No fee to **redeem** winning shares — they're worth $1 each
-* Your cost is simply the share price you pay; you can sell back at the current market price any time
+* Your cost is the share price plus the trading fee; you can sell back at the current market price any time
 
 See [Predict](../predict/README.md). The minimum order is **$1**.
 

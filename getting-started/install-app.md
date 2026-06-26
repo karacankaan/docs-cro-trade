@@ -1,6 +1,10 @@
 # Install the App
 
-cro.trade is a Progressive Web App (PWA), so you can install it directly to your phone's home screen for a native app-like experience.
+You can get cro.trade as a native app or install it as a Progressive Web App (PWA) on your home screen:
+
+* **Android** — download the app from the **[Google Play Store](https://play.google.com/store/apps/details?id=com.crotrade.app)**
+* **iPhone** — join the **[TestFlight](https://testflight.apple.com/join/bfkAWsqN)** beta, or install the **PWA** from Safari
+* **Desktop** — install the PWA from Chrome or Edge
 
 ## Why Install?
 
@@ -9,19 +13,27 @@ cro.trade is a Progressive Web App (PWA), so you can install it directly to your
 * **Faster loading** — cached assets for quicker startup
 * **Push notifications** — get alerts for trades, order fills, price targets, and prediction results (see [Notifications](../account/notifications.md))
 
-## Install on iPhone (Safari)
+## Android — Google Play Store
+
+The cro.trade Android app is available on the **[Google Play Store](https://play.google.com/store/apps/details?id=com.crotrade.app)** — tap **Install** to get it.
+
+Prefer the web app? You can also install the PWA:
+
+1. Open [cro.trade](https://cro.trade) in **Chrome**
+2. Tap the **three-dot menu** in the top-right
+3. Tap **Add to Home Screen** or **Install App**
+4. Tap **Install** to confirm
+
+## iPhone — PWA or TestFlight
+
+**Install the PWA (Safari):**
 
 1. Open [cro.trade](https://cro.trade) in **Safari**
 2. Tap the **Share** button (square with arrow) at the bottom
 3. Scroll down and tap **Add to Home Screen**
 4. Tap **Add** to confirm
 
-## Install on Android (Chrome)
-
-1. Open [cro.trade](https://cro.trade) in **Chrome**
-2. Tap the **three-dot menu** in the top-right
-3. Tap **Add to Home Screen** or **Install App**
-4. Tap **Install** to confirm
+**Join the TestFlight beta:** for the best and fastest experience, get the native iOS app via Apple's **[TestFlight](https://testflight.apple.com/join/bfkAWsqN)**, then follow the prompts to install.
 
 ## Install on Desktop (Chrome / Edge)
 
