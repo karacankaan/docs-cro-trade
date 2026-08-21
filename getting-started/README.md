@@ -1,32 +1,21 @@
 # Getting Started
 
-Getting started with cro.trade takes less than a minute. There's no lengthy sign-up — sign in or connect a wallet and you're in.
+There's no sign-up form. Open [cro.trade](https://cro.trade), sign in, and you're trading.
 
-## Steps
+## Signing in
 
-1. **Visit** [cro.trade](https://cro.trade) in your browser
-2. **Sign in** — connect an existing wallet, or sign in with email, Google, Apple, Telegram, or a passkey (a wallet is created for you automatically)
-3. **Start exploring** — browse trending tokens, open a perp, check prediction markets, or search for a specific token
+Connect an existing wallet, or sign in with email, Google, Apple, Telegram or a passkey — those create a self-custodial wallet for you in the background. Either route lands you in the same place. [Connect Your Wallet](connect-wallet.md) covers both in detail.
 
-## What You Can Do
+## What you'll need
 
-* **Spot trade** tokens on Cronos — see [Trade](../features/trade.md)
-* **Trade perpetual futures** with leverage — see [Perps](../perps/README.md)
-* **Trade on real-world outcomes** — see [Predict](../predict/README.md)
-* **Track your portfolio** and history — see [Wallet & Portfolio](../features/wallet.md)
-* **Earn fee-sharing rewards** as a CRONUS holder — see [Rewards](../rewards/README.md)
+A modern browser, or the [installed app](install-app.md).
 
-## Optional Setup
+For spot trading, a little **CRO** for gas when you pay with CRO. Paying with USDC is normally gasless — cro.trade covers it, and you can trade with no CRO at all. See [One signature, often no gas](../features/trade.md#one-signature-often-no-gas).
 
-* [Install the App](install-app.md) on your phone for the best experience
-* Add tokens to your **Watchlist** to track them across sessions
-* **Follow** traders to keep up with their activity in the [Feed](../social/feed.md)
-* Join the conversation in [Chat](../social/chat.md)
-* Turn on [Notifications](../account/notifications.md) for trade and price alerts
-* Secure your account with [2FA or a passkey](../account/security.md)
+For perps and predictions, **USDC**. Bring it in from Cronos, Arbitrum or [any of six other chains](../features/wallet.md#adding-usdc-from-another-chain).
 
-## Requirements
+## Where to go next
 
-* A modern browser, or the installed [app](install-app.md)
-* For spot trading on Cronos: a small amount of **CRO** for gas when you pay with CRO. Paying with **USDC or USDT** is normally gasless — see [Trade](../features/trade.md#one-signature-often-no-gas)
-* For perps and predictions: **USDC**, which you can bring in from Cronos, Arbitrum, or [another chain](../features/wallet.md#adding-usdc-from-another-chain)
+[Trade](../features/trade.md) a Cronos token, open a [perp](../perps/README.md), or take a position on a [prediction market](../predict/README.md). Your [portfolio](../features/wallet.md) collects all three.
+
+Worth doing once: [install the app](install-app.md) so you get push notifications, star a few tokens to build a watchlist, follow some traders so [alpha](../social/alpha.md) fills up, and add [2FA or a passkey](../account/security.md).

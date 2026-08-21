@@ -1,38 +1,21 @@
 # Settings
 
-Open **Settings** to manage your account and app preferences. It's organized into a few groups.
-
 ## Account & Identity
 
-* **Profile** — username, bio, and social links
-* **Wallets** — your wallets and the active one
-* **Linked Accounts** — email, Google, and Apple sign-in
+**Profile** (username, bio, socials), **Wallets** (all of them, and which is active), and **Linked Accounts** (email, Google, Apple, Telegram). All three are covered in [Account & Wallets](wallets.md).
 
-See [Account & Wallets](wallets.md).
+## Notifications, Security, Trading & Display
 
-## Features
+**Notifications** covers alerts, followed traders and Predict — see [Notifications](notifications.md). **Security** covers 2FA, passkeys and account deletion — see [Security](security.md).
 
-* **Notifications** — alerts, trader follows, and Predict notifications — see [Notifications](notifications.md)
-* **Security** — 2FA, passkeys, and delete account — see [Security](security.md)
-* **Trading & Display** — app preferences (below)
-
-## Trading & Display
-
-* **Haptic feedback** — toggle vibration feedback on supported devices
-* **Sound effects** — toggle in-app sounds
-
-Language, currency, and default slippage options are shown here and are **coming soon**.
+**Trading & Display** holds the app's own preferences: **haptic feedback** (touch devices only) and **sound effects**. Language, currency and default slippage are listed there but not live yet.
 
 ## Help & Support
 
-* **Documentation** — guides, FAQ, and how-tos (these docs)
-* **Discord** — [discord.gg/crotrade](https://discord.gg/crotrade)
-* **X** — [@crotrade](https://x.com/crotrade)
-* **Telegram** — [t.me/CronusAgent](https://t.me/CronusAgent)
-* **Privacy & Terms** — see [Privacy & Terms](../privacy-and-terms.md)
+Links out to these docs, [Discord](https://discord.gg/crotrade), [X](https://x.com/crotrade) and [Telegram](https://t.me/CronusAgent), plus [Privacy & Terms](../privacy-and-terms.md).
 
-To reach the team directly, open a support ticket from [Chat](../social/chat.md#support).
+To reach the team directly, open a ticket from [Chat](../social/chat.md#support).
 
 ## Disconnect
 
-Tap **Disconnect** to sign out. Your funds remain on-chain — reconnect any time to keep trading.
+Signs you out. Your money is on-chain and unaffected; reconnect whenever.

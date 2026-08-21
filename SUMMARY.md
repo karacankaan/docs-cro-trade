@@ -17,7 +17,7 @@
 
 ## Perpetuals
 
-* [Perps Overview](perps/README.md)
+* [Perps](perps/README.md)
 
 ## Prediction Markets
 
@@ -26,10 +26,10 @@
 
 ## Social
 
-* [Arena](features/arena.md)
+* [cro.trade | alpha](social/alpha.md)
 * [Chat](social/chat.md)
-* [Feed](social/feed.md)
 * [Profiles](features/profiles.md)
+* [Arena](features/arena.md)
 
 ## Portfolio & Rewards
 

@@ -1,42 +1,30 @@
 # Features Overview
 
-cro.trade is organized around a main navigation bar plus a dedicated search. Everything is real-time and works on both mobile and desktop.
-
 ## Navigation
 
-| Tab | Description |
+| Tab | What's behind it |
 | --- | --- |
-| **Explore** | Discover trending tokens, top gainers, new launches, your watchlist, and perps markets |
-| **Predict** | Prediction markets — crypto, football, sports, economy, and politics |
-| **Chat** | Live public rooms, plus the trade feed and support — the centre button on mobile, **ALPHA** on desktop |
-| **Perps** | Perpetual futures with leverage |
-| **Profile** | Your portfolio, holdings, trade history, rewards, and settings |
-| **Search** | Find tokens, traders, and perps markets from anywhere |
+| **Explore** | Trending tokens, gainers, new launches, your watchlist, perps markets |
+| **Predict** | Prediction markets: crypto, football, sports, economy, politics |
+| **Chat** | Public rooms, [cro.trade \| alpha](../social/alpha.md) and support — the centre button on mobile, **ALPHA** on desktop |
+| **Perps** | Perpetual futures |
+| **Profile** | Portfolio, holdings, history, rewards, settings |
+| **Search** | Tokens, traders and perps markets, from anywhere |
 
-## Market Types
+## Three markets, one login
 
-cro.trade supports three kinds of trading under one login:
+**Spot** — Cronos tokens at market price, through a router that quotes every venue on the chain. See [Trade](trade.md) and [Launchpad](launchpad.md).
 
-* **Spot** — buy and sell Cronos tokens at the current market price. See [Trade](trade.md) and [Launchpad](launchpad.md).
-* **Perpetuals** — leveraged long/short positions on crypto, stocks, commodities, and forex. See [Perps](../perps/README.md).
-* **Prediction markets** — buy YES/NO shares on real-world outcomes. See [Predict](../predict/README.md).
+**Perpetuals** — leveraged long or short on crypto, stocks, commodities, indices and forex. See [Perps](../perps/README.md).
 
-## Common Features
+**Prediction markets** — shares in the outcome of a real-world event. See [Predict](../predict/README.md).
 
-These are available across the app:
+They share an account, a portfolio and a history, and both perps and predict settle in the same USDC balance you can move between them.
 
-* **Search** — find any token by name, symbol, or contract address; find traders by username, .cro name, or address; find perps markets.
-* **Watchlist** — star tokens to add them to your personal watchlist, accessible from Explore.
-* **Real-time updates** — prices, volumes, trades, order books, and live scores stream without refreshing.
-* **Profiles & following** — tap any trader to view their profile, holdings, and history, and follow them.
-* **Portfolio & history** — a unified view of your spot, perps, and prediction activity with P&L analytics.
-* **Notifications** — push alerts for trades, order fills, price targets, chat mentions, launches, and prediction results.
-* **Rewards** — protocol fee sharing for CRONUS holders and referral earnings.
-* **Chat** — live public rooms, with the trade [Feed](../social/feed.md) and support inside them. See [Chat](../social/chat.md).
+## Across the app
 
-## Desktop vs Mobile
+Prices, trades, order books and live scores all stream, so nothing needs refreshing. Star any token to build a [watchlist](explore.md#watchlist). Tap any trader for their [profile](profiles.md) and follow them. [Notifications](../account/notifications.md) cover trades, fills, price targets, chat mentions, launches and prediction results. [Rewards](../rewards/README.md) pays CRONUS holders a share of protocol fees and referrers 30% of their friends' fees.
 
-cro.trade adapts to your screen size:
+## Desktop and mobile
 
-* **Mobile**: bottom navigation bar, swipe-friendly panels, compact cards, and native apps on the App Store and Google Play
-* **Desktop**: full-width layout with side panels, expanded charts, order books, and a persistent header
+Mobile gets a bottom navigation bar, swipeable panels, compact cards, and native apps on the App Store and Google Play. Desktop spreads out: side panels, larger charts, order books and a persistent header, with Chat as an overlay rather than a page so you can read it while watching a chart.

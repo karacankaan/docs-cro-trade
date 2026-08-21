@@ -1,115 +1,73 @@
-# Perps Overview
+# Perps
 
-**Perps** (perpetual futures) let you trade with leverage — going long (expecting the price to rise) or short (expecting it to fall) — without an expiry date. Perps on cro.trade settle in **USDC**.
+Perpetual futures: leveraged long or short, no expiry, settled in **USDC**. The **Perps** tab opens them.
 
-Open the **Perps** tab in the navigation bar to get started.
+> Leverage cuts both ways and a position can be liquidated in full. Only risk what you can afford to lose.
 
-## Available Markets
+## Markets
 
-Perps cover five market categories, each its own tab in the market picker — plus a **Watchlist** tab for the ones you star:
+Five categories, each a tab in the market picker, plus a **Watchlist** tab for the ones you star: **Crypto**, **Stocks**, **Commodities**, **Indices** and **Forex**.
 
-* **Crypto** — Bitcoin, Ethereum, and many other coins
-* **Stocks** — major US companies
-* **Commodities** — gold, oil, and more
-* **Indices** — index products
-* **Forex** — currency pairs
+Every market card carries the price and 24h change, daily volume, the current funding rate, open interest, and the maximum leverage that market allows.
 
-Each market card shows the current price and 24h change, daily **volume**, the current **funding rate**, **open interest**, and the maximum leverage available.
+## Opening a position
 
-## Opening a Position
+Pick a market, then **Long** or **Short**, then an order type:
 
-1. Open the **Perps** tab and tap a market (e.g. BTC)
-2. Choose **Long** (price up) or **Short** (price down)
-3. Pick an **order type**:
-   * **Market** — fills immediately at the best available price
-   * **Limit** — fills only at your chosen price or better
-   * **Stop** — triggers a market order when the price hits your level (useful to cut losses)
-4. Set your **leverage** with the slider (up to **50x**, depending on the market)
-5. Choose your **margin mode** — Cross or Isolated (see below)
-6. Enter your **size** in USD (or use the size slider as a % of your buying power)
-7. Optionally enable **Reduce Only** and **Take Profit / Stop Loss**
-8. Tap **Long** / **Short** to submit, then confirm
-
-A toast notification shows the order status and your entry price. Filled positions appear in your **Positions** list.
-
-## Order Types & Options
-
-| Option | What it does |
+| Type | Behaviour |
 | --- | --- |
-| **Market** | Instant fill at the best price (with a slippage setting) |
-| **Limit** | Waits for your price; you control entry |
-| **Stop** | Becomes a market order when a trigger price is hit |
-| **Reduce Only** | Only reduces/closes an existing position — never opens a new one |
-| **Take Profit (TP)** | Auto-exits at a profit target |
-| **Stop Loss (SL)** | Auto-exits to limit losses |
+| **Market** | Fills now at the best price, within your slippage setting |
+| **Limit** | Waits for your price or better |
+| **Stop** | Becomes a market order once a trigger price is hit |
 
-TP/SL can close any portion of the position — a slider sets how much — and can be set by target price or by gain in % or $.
+Set leverage on the slider — up to **50x**, depending on the market — choose **Cross** or **Isolated** margin, and enter a size in USD or drag the slider as a percentage of buying power.
 
-### Slippage (market orders)
+Two options before you submit. **Reduce Only** guarantees the order can only shrink or close an existing position, never open a new one. **Take Profit / Stop Loss** attaches an automatic exit; it can close any portion of the position, set either by target price or by gain in % or $.
 
-Market orders use a slippage setting with presets (e.g. 0.1%, 0.3%, 0.5%, 1%) or a custom value. Your choice is remembered.
+Submit and confirm. A toast reports the status and your entry price, and the position appears in your **Positions** list.
 
-## Margin: Cross vs Isolated
+### Slippage on market orders
 
-* **Cross margin** — your whole balance backs all positions, lowering liquidation risk for any single one
-* **Isolated margin** — a fixed amount of margin is dedicated to one position; only that margin is at risk
+Presets at 0.1, 0.3, 0.5 and 1%, or a custom figure. Remembered between orders.
 
-Some markets only support one mode. You can switch modes in the order form where allowed.
+## Cross and isolated margin
 
-## Funding Rates
+Under **cross** margin your whole balance backs every position, which pushes any single liquidation further away but ties them together. Under **isolated**, a fixed amount of margin is committed to one position and only that amount is at risk.
 
-Perpetuals use periodic **funding payments** between longs and shorts (roughly every 8 hours):
+Some markets support only one of the two. Where both are allowed, you switch in the order form.
 
-* **Positive** funding: longs pay shorts
-* **Negative** funding: shorts pay longs
+## Funding
 
-You only pay or receive funding while holding a position. The current rate is shown on every market.
+Perpetuals hold their price to the underlying with periodic funding payments between longs and shorts, roughly every eight hours. Positive funding means longs pay shorts; negative means the reverse. You only pay or receive it while a position is open, and the current rate is on every market.
 
 ## Liquidation
 
-If your losses eat through your margin, your position is liquidated (automatically closed). The estimated **liquidation price** is shown as you size a trade and on every open position. Lower leverage moves the liquidation price further away.
+If losses eat through your margin, the position is closed for you. The estimated liquidation price is shown while you're sizing the trade and on the open position afterwards. Lower leverage moves it further away.
 
-## Managing Positions
+## Managing positions
 
-Open the **Positions** view to see each position's side, size, entry and mark price, unrealized PnL, funding, margin, leverage, liquidation price, and ROE. Tap a position to:
-
-* **Close** — fully or partially, at market or limit
-* **Adjust leverage**
-* **Add or reduce margin** (cross)
-* **Set or edit TP/SL**
-
-You can also review **Open Orders** and **Order History**.
-
-## Funding Your Perps Account
-
-Perps trade in USDC held in your Perps account. To add funds, open the wallet panel and choose **Deposit**:
-
-* **From Cronos (CRO or USDC)** — converted to USDC automatically
-* **From Arbitrum USDC** — a direct deposit
-* **From another chain** — bring native USDC across from **Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche, or Cronos**
-
-See [Adding USDC from Another Chain](../features/wallet.md#adding-usdc-from-another-chain) for how the cross-chain route works.
-
-Funds typically arrive within a few minutes.
-
-### Withdrawing
-
-Use **Withdraw**, pick the network you want the USDC to land on, and enter the destination address. Perps withdrawals can go to:
-
-* **Cronos**
-* **Arbitrum**
-* **Solana**
-
-### Internal Transfers (Perps ↔ Predict)
-
-You can move USDC between your Perps and [Predict](../predict/README.md) balances in-app. Open the wallet panel, choose **Transfer**, pick the direction, and confirm.
+The **Positions** view carries side, size, entry and mark price, unrealised PnL, funding, margin, leverage, liquidation price and ROE. Tap one to close it — fully or partially, at market or limit — adjust leverage, add or reduce margin on cross, or set and edit TP/SL. **Open Orders** and **Order History** sit alongside it.
 
 ## Charts
 
-Perps charts support standard timeframes (1m, 5m, 15m, 1h, 4h, 1d, 1w, 1mo) with live price updates and an order book you can tap to set a price.
+1m, 5m, 15m, 1h, 4h, 1d, 1w and 1mo, live, with an order book you can tap to fill in a price.
+
+## Funding your account
+
+Perps trade against a USDC balance. **Deposit** takes it from:
+
+- **Cronos**, in CRO or USDC, converted for you
+- **Arbitrum USDC**, directly
+- **Another chain** — Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche or Cronos, described in [Adding USDC from another chain](../features/wallet.md#adding-usdc-from-another-chain)
+
+Money usually lands within a few minutes.
+
+**Withdraw** goes to **Cronos**, **Arbitrum** or **Solana** — pick the network, give it an address.
+
+### Transfers between Perps and Predict
+
+**Transfer** in the wallet panel moves USDC between your Perps and [Predict](../predict/README.md) balances. Pick a direction and confirm.
 
 ## Fees
 
-Perps use a flat **0.06%** maker/taker fee, plus periodic funding payments between longs and shorts. See [Fees](../reference/fees.md) for the full breakdown.
-
-> **Risk note:** Leverage amplifies both gains and losses, and positions can be fully liquidated. Trade with care and only risk what you can afford to lose.
+A flat **0.06%** maker and taker, plus the funding payments above, which are exchanged between traders rather than charged by the platform. [Fees](../reference/fees.md) has the whole picture.

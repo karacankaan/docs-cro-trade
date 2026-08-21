@@ -1,44 +1,19 @@
 # Profiles
 
-Every wallet on cro.trade has a profile. Profiles let you discover traders, see what they're holding and trading, and follow the ones you like.
+Every wallet has one. Open it by tapping a trader anywhere they appear — a trade feed, [alpha](../social/alpha.md), search results.
 
-## Viewing a Profile
+A profile carries the avatar and display name, bio and socials where they're set, follower and following counts, portfolio value and holdings, trade history, and a link out to the Cronos explorer.
 
-Open a profile by:
+## Following
 
-* Tapping a trader's avatar in a trade feed or the social [Feed](../social/feed.md)
-* Searching for a wallet address, .cro name, or username
-* Tapping through from anywhere a trader appears
+**Follow** ties a trader to your account rather than the device. It fills the **Following** filter on [alpha](../social/alpha.md) and switches on that trader's [alerts](../account/notifications.md), which you can then tune per trader. Tap again to unfollow.
 
-A profile shows:
+## Your own
 
-* **Avatar** — a custom photo or an auto-generated one
-* **Display name** — a custom username, .cro name, or shortened address
-* **Bio** and **social links** (X, Telegram, website) when set
-* **Followers / following** counts
-* **Portfolio value** and **holdings**
-* **Trade history**
-* A link to view the address on the Cronos explorer
+**Settings → Profile** sets your username (up to 20 characters, checked for availability as you type), a photo (image, GIF or a short clip under 5MB, resized for you), a bio up to 160 characters, and links to X, Telegram and a website.
 
-## Following Traders
+## Names and badges
 
-Tap **Follow** on any profile to add them to your following list. Following is tied to your account, populates the **Following** tab in the Feed, and powers trader alerts. Tap again to unfollow at any time.
+A trader who's registered a Cronos ID shows it in place of their address — `alice.cro` rather than `0x1234…abcd`. You can search for a `.cro` name and send to one.
 
-## Your Profile
-
-Set up your own profile from **Settings → Account → Profile**:
-
-* **Username** — up to 20 characters, with a live availability check
-* **Profile photo** — upload an image (or short GIF/video); it's resized automatically
-* **Bio**
-* **Social links** — X, Telegram, and website
-
-See [Account & Wallets](../account/wallets.md) for managing your account.
-
-## .cro Names
-
-Traders who've registered a Cronos ID (a `.cro` name) display it instead of a raw address — for example, `alice.cro` instead of `0x1234...abcd`. You can search for and send to .cro names too.
-
-## Maker Badges
-
-Token deployers and notable accounts may show a special name or badge (for example, the creator of a token), making it easy to spot who's behind a launch in trade feeds.
+Token deployers and notable accounts carry a badge, so it's obvious in a trade feed who launched what.

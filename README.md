@@ -1,35 +1,31 @@
 # Welcome
 
-**cro.trade** is a real-time trading platform built for the Cronos ecosystem. It brings spot trading, perpetual futures, prediction markets, and a social trading feed together in one fast, mobile-first app.
+**cro.trade** puts four markets behind one login: spot tokens on Cronos, perpetual futures, prediction markets, and a live feed of what everyone is trading.
 
-## What is cro.trade?
+## What's here
 
-cro.trade is where you can:
+**Spot.** Buy and sell any Cronos token. The router checks every DEX and bonding curve on the chain and takes the best path. Charts go down to one-second candles, and the trade feed under them is live.
 
-* **Explore** trending tokens, top gainers, and new launches on Cronos
-* **Trade** any token with live charts, smart routing, and a real-time trade feed
-* **Track launches** on the Launchpad with bonding-curve progress and graduation
-* **Trade Perps** — perpetual futures on crypto, stocks, commodities, and forex with up to 50x leverage
-* **Predict** real-world outcomes — sports, crypto, economy, and politics prediction markets
-* **Follow traders** and share insights on the social Feed
-* **Chat** with other traders in live public rooms
-* **Manage your portfolio** with holdings, P&L analytics, and a unified trade history
-* **Earn rewards** — protocol fee sharing for CRONUS holders, plus referral earnings
+**Launchpad.** New tokens while they're still on their bonding curve, from five launch platforms, with graduation progress on every card.
 
-## Key Highlights
+**Perps.** Long or short crypto, stocks, commodities, indices and forex, up to 50x depending on the market. Settled in USDC.
 
-* **Real-time everything** — prices, volumes, trades, order books, and scores stream live via WebSocket
-* **One account, many markets** — spot, perps, and predictions share a single login
-* **Flexible sign-in** — connect an external wallet or sign in with email, Google, Apple, Telegram, or a passkey
-* **Mobile-first** — native apps on the App Store and Google Play, or install as a PWA, with push notifications
-* **Self-custodial** — your funds stay in wallets you control
+**Predict.** Buy shares in the outcome of a real-world event — sport, crypto, the economy, politics — and sell out whenever you like rather than waiting for the result.
 
-## Quick Links
+**alpha and Chat.** Follow traders, see their trades land in real time, and talk about it in public rooms.
 
-* **App**: [cro.trade](https://cro.trade)
-* **X**: [@crotrade](https://x.com/crotrade)
-* **Discord**: [discord.gg/crotrade](https://discord.gg/crotrade)
+**Portfolio and rewards.** Holdings, P&L and one history across all four markets. CRONUS holders take a share of protocol fees; referrers take 30% of what their friends pay.
 
-***
+## Worth knowing
 
-Ready to start? Head to [Getting Started](getting-started/README.md).
+Everything streams over a WebSocket, so prices, trades, order books and live scores move without a refresh.
+
+You can arrive with a wallet or without one. Connect MetaMask or Crypto.com Wallet, or sign in with email, Google, Apple, Telegram or a passkey — the last five create a self-custodial wallet for you. Either way the keys are yours.
+
+There are native apps on the [App Store](https://apps.apple.com/app/id6762343829) and [Google Play](https://play.google.com/store/apps/details?id=com.crotrade.app), and the site installs as a PWA anywhere else.
+
+## Links
+
+[cro.trade](https://cro.trade) · [@crotrade](https://x.com/crotrade) · [discord.gg/crotrade](https://discord.gg/crotrade)
+
+Start at [Getting Started](getting-started/README.md).

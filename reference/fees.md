@@ -1,33 +1,31 @@
 # Fees
 
-A summary of the fees you'll encounter across cro.trade. Fees differ by market type.
+## Spot, on Cronos
 
-## Spot Trading (Cronos)
+**0.9%** per trade, built into the quote you see. On top of that you pay network gas and whatever the underlying pools charge, both of which the router already accounts for when it picks a route.
 
-* **Trading fee: 0.9%** per trade, built into your quote
-* You also pay the underlying network gas and any DEX/pool fees, which the [smart router](../features/trade.md) factors into your price
+Paying with USDC, the gas is usually covered for you — see [One signature, often no gas](../features/trade.md#one-signature-often-no-gas).
 
 ## Perpetuals
 
-* **Trading fee: 0.06%** for both maker and taker orders
-* **Funding** payments exchanged between longs and shorts periodically (not a platform fee — it can be positive or negative for you)
+**0.06%**, maker and taker alike.
 
-See [Perps Overview](../perps/README.md).
+Funding is separate and isn't a platform fee: it's paid between longs and shorts every few hours and can go either way for you. [Perps](../perps/README.md) explains it.
 
-## Prediction Markets
+## Prediction markets
 
-* **Trading fees: 1% taker / 0.5% maker**
-* No fee to **redeem** winning shares — they're worth $1 each
-* Your cost is the share price plus the trading fee; you can sell back at the current market price any time
+**1% taker, 0.5% maker.** Your cost is the share price plus the fee, and you can sell back at the market price at any time.
 
-See [Predict](../predict/README.md). The minimum order is **$1**.
+Redeeming winning shares is free — they're worth $1 each. Minimum order is **$1**. See [Predict](../predict/README.md).
 
-## Deposits & Withdrawals
+## Moving money
 
-* Funding and withdrawing USDC may incur the relevant **network fees**
-* **Bringing USDC in from another chain** costs gas on the source chain. cro.trade covers the gas on the destination side. Choosing **Fast** adds a small transfer fee; **Standard** is slower and cheaper — see [Adding USDC from Another Chain](../features/wallet.md#adding-usdc-from-another-chain)
-* **Internal transfers** between your Perps and Predict balances are quick and low-cost — see [Internal Transfers](../perps/README.md#internal-transfers-perps-↔-predict)
+Funding and withdrawing USDC costs the relevant network fees.
 
-## CRONUS Fee Sharing
+Bringing USDC in from another chain costs gas on the *source* chain only; cro.trade covers the destination side. **Fast** adds a small transfer fee, **Standard** is slower and cheaper. See [Adding USDC from another chain](../features/wallet.md#adding-usdc-from-another-chain).
 
-cro.trade shares protocol fees with CRONUS holders. See [Rewards & Fee Sharing](../rewards/README.md) for details.
+Moving USDC between your Perps and Predict balances is quick and cheap — see [Transfers between Perps and Predict](../perps/README.md#transfers-between-perps-and-predict).
+
+## CRONUS fee sharing
+
+A share of protocol fees goes back to CRONUS holders. [Rewards & Fee Sharing](../rewards/README.md) has the mechanics.

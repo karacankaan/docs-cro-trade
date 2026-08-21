@@ -1,56 +1,32 @@
 # Account & Wallets
 
-Everything about your account lives in **Settings** — your profile, your wallets, and the sign-in methods linked to your account.
+Your profile, your wallets and your sign-in methods all live in **Settings**.
 
-## Your Profile
+## Profile
 
-From **Settings → Profile** you can set:
+**Settings → Profile** holds your photo (an image, GIF or short clip under 5MB, resized for you), your username (up to 20 characters, availability checked as you type), a bio up to 160 characters, and links to X, Telegram and a website. [Profiles](../features/profiles.md) shows how it all looks to everyone else.
 
-* **Profile photo** — upload an image or short clip (JPG, PNG, GIF, or video under 5MB); it's resized automatically
-* **Username** — up to 20 characters, with a live availability check
-* **Bio** — up to 160 characters
-* **Social links** — X, Telegram, and website
+## Wallets
 
-See [Profiles](../features/profiles.md) for how your profile appears to others.
+One account holds up to **20 wallets**, switchable at any time. **Settings → Wallets** lists each with its label, address and type:
 
-## Multiple Wallets
+- **Embedded** — created for you when you signed in
+- **Created** — extra ones you generated in-app
+- **Imported** — brought in from a private key
+- **External** — connected, like MetaMask, Rabby or WalletConnect
 
-You can hold up to **20 wallets** on one account and switch between them at any time. From **Settings → Wallets** you'll see each wallet with its label, address, and type:
+Tap one to switch to it, copy its address, or export its private key — embedded wallets export, which is what makes them yours rather than ours. From the same screen you can create a fresh wallet, import one from a key, remove a created or imported wallet, or disconnect an external one.
 
-* **Embedded** — wallets cro.trade created for you
-* **Created** — additional wallets you generated in-app
-* **Imported** — wallets you brought in with a private key
-* **External** — connected wallets like MetaMask, Rabby, or WalletConnect
+Embedded and external wallets can't be removed: export the first, disconnect the second.
 
-### Wallet Actions
+## Linked sign-in methods
 
-Tap a wallet to:
+**Settings → Linked Accounts** points **email**, **Google**, **Apple** and **Telegram** at the same account. Google, Apple and Telegram can be unlinked again; you'll be stopped from removing your last remaining way in.
 
-* **Switch** to make it your active wallet
-* **Copy address**
-* **Export private key** — available for embedded wallets, so you control your keys
-* **Create a new wallet** — generates a fresh embedded wallet and switches to it
-* **Import a private key** — paste a key to add an existing wallet
-* **Remove** a created or imported wallet, or **Disconnect** an external one
+Sign-in and wallet security run on [Privy](https://www.privy.io/).
 
-Embedded and external wallets can't be "removed" (export or disconnect them instead).
+## Elsewhere
 
-## Linked Sign-In Methods
+Two-factor authentication and passkeys are in [Security](security.md). Push alerts are in [Notifications](notifications.md).
 
-From **Settings → Linked Accounts**, manage how you sign in:
-
-* **Email**
-* **Google**
-* **Apple**
-* **Telegram**
-
-You can link and unlink Google, Apple, and Telegram (you'll be reminded to keep at least one sign-in method). Sign-in and wallet security are powered by [Privy](https://www.privy.io/).
-
-## Security & Notifications
-
-* Set up two-factor authentication and passkeys in [Security](security.md)
-* Manage push alerts in [Notifications](notifications.md)
-
-## Disconnecting
-
-Tap **Disconnect** to sign out. Your funds remain on-chain — you'll just need to reconnect to trade again.
+**Disconnect** signs you out. Nothing happens to your money — it's on-chain, in wallets you hold the keys to, and it's there when you come back.

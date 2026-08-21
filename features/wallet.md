@@ -1,70 +1,51 @@
 # Wallet & Portfolio
 
-Your **Profile** tab gives you a complete view of your portfolio across everything you trade on cro.trade — spot tokens, perps, and predictions — plus your full history and analytics.
+The **Profile** tab is everything you hold and everything you've done, across spot, perps and predictions.
 
-## Portfolio Overview
+## Overview
 
-At the top you'll see:
-
-* **Total portfolio value** — your combined value across spot holdings, perps, and predictions
-* **CRO balance** — your native CRO, with receive/send actions
-* A **portfolio chart** with selectable ranges (**1D**, **1W**, **1M**) so you can see how your value has changed over time
+Your total value across all three markets sits at the top, with your CRO balance and its send and receive actions beside it, over a chart you can set to **1D**, **1W** or **1M**.
 
 ## Holdings
 
-A list of the tokens you hold on Cronos, each showing:
+The Cronos tokens you hold, each with the amount, its USD value, what share of your portfolio it is, the price change and your P&L. Tap one to open its [trade page](trade.md).
 
-* Token name and symbol
-* Amount held
-* Current USD value and share of your portfolio
-* Price change and profit & loss (P&L)
+## History
 
-Tap any holding to open its [trade page](trade.md).
+One log for spot, perps and predictions together, in either of two views.
 
-## Trade History
+**List** gives you each trade with its market, direction, amount, price, value and time, filterable, with a profit or loss badge on anything closed.
 
-A unified log of your activity across spot, perps, and predictions. View it two ways:
+**Calendar** is a month of realised P&L at a glance — green days up, red days down. Tap a day to narrow the list to it.
 
-* **List view** — each trade with the market, direction (buy/sell), amount, price, value, and time, with filters and a profit/loss badge on closed positions
-* **Calendar heatmap** — a month-at-a-glance view of your realized P&L, with green for profitable days and red for losses; tap a day to filter the list to that period
+## Sending money
 
-History covers your Cronos spot trades, perps, and predictions in one place.
+**Send** moves money to a *person*, not to an address you have to paste. It asks three things in order:
 
-## Sending Money
+1. **Who.** People you follow, people you've paid before, or a **username**, a **`.cro` name** or an address typed in.
+2. **Where from.** **Cronos cash**, **Perps cash** or **CRO**, each with its balance.
+3. **How much.** Enter the amount and swipe to confirm.
 
-**Send** moves money to a *person*, not to an address you have to paste. It asks three things, in order:
+Money lands in the same balance it left — your Cronos cash into their Cronos cash, Perps into their Perps, CRO into their CRO. There's no cross-venue send. If you want it in the other pot, move it there once on the transfer screen instead of on every send.
 
-1. **Who** — pick from the traders you follow or people you've paid before, or type a **username**, a **`.cro` name**, or an address
-2. **Where from** — **Cronos cash**, **Perps cash**, or **CRO**, each shown with its balance
-3. **How much** — enter the amount, then swipe to confirm
+**Predict is neither a source nor a destination.** Money in Predict is posted collateral rather than a spendable balance, so it comes out through withdraw.
 
-Money arrives in the same balance it left: your Cronos cash lands in their Cronos cash, Perps in their Perps, CRO in their CRO. There's no cross-venue send — if you want your money in the other pot, move it there once on the transfer screen rather than on every send.
+## Funding perps and predict
 
-> **Predict is not a send source or destination.** Money in Predict is posted collateral rather than a spendable balance, so it leaves through withdraw instead.
+Both settle in **USDC**. Deposit, withdraw and move money between them from their own wallet panels — see [Perps](../perps/README.md#funding-your-account) and [Predict](../predict/README.md#funding).
 
-## Funding Perps & Predict
+## Adding USDC from another chain
 
-Perps and predictions use **USDC**. Deposit, withdraw, and move funds between Perps and Predict from their wallet panels — see [Perps](../perps/README.md#funding-your-perps-account) and [Predict](../predict/README.md#funding-predict).
+If your USDC is somewhere else, you don't have to bridge it yourself. **Add USDC from another chain** does it in one flow.
 
-## Adding USDC from Another Chain
+It comes from **Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche or Cronos**, and lands in your **Cronos** wallet, your **Perps** balance or your **Predict** balance.
 
-If your USDC is on a different chain, you don't have to bridge it yourself first. Choose **Add USDC from another chain** and cro.trade moves it across for you.
+Pick the source and destination, enter an amount between **2 and 25,000 USDC**, choose **Fast** (seconds, small fee) or **Standard** (slower, cheaper), then approve on the source chain.
 
-**Source chains:** Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche, and Cronos.
+The USDC is burned there and native USDC is issued on the destination — nothing wrapped or synthetic arrives. **You need no gas on the destination side**; cro.trade covers it. You do need enough of the source chain's native token to pay for the burn.
 
-**Destination:** your **Cronos** wallet, your **Perps** balance, or your **Predict** balance.
+The panel names each step as it happens — approving, burning, waiting for attestation, minting — so a transfer in flight is never a blank screen.
 
-How it works:
+## Account and wallets
 
-1. Pick the chain your USDC is on and the destination you want it in
-2. Enter an amount — between **2** and **25,000 USDC** per transfer
-3. Choose **Fast** (arrives in seconds, for a small transfer fee) or **Standard** (slower, cheaper)
-4. Approve and confirm on the source chain
-
-The USDC is burned on the source chain and native USDC is issued on the destination — it isn't a wrapped or synthetic token. **You don't need gas on the destination chain**: cro.trade covers that side. You do need enough of the source chain's native token to pay for the burn.
-
-The panel shows each step as it happens — approving, burning, waiting for attestation, then minting — so you can see where a transfer is.
-
-## Account & Wallets
-
-Manage your username, linked sign-in methods, and your wallets (you can hold up to 20) from Settings — see [Account & Wallets](../account/wallets.md).
+Username, linked sign-in methods and your wallets — up to 20 — live in [Account & Wallets](../account/wallets.md).

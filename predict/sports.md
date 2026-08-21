@@ -1,38 +1,34 @@
 # Sports & Live Scores
 
-Sports are a major part of [Predict](README.md). You can trade on matches across dozens of leagues and follow live scores in real time.
+Matches across dozens of leagues, with scores updating as they happen.
 
-> Soccer has a category of its own — **Football** — rather than sitting under Sports. See [Football Hub](README.md#football-hub).
+> Soccer isn't here. It has a category of its own — see [Football](README.md#football).
 
-## Browsing Sports
+## Browsing
 
-The **Sports** category groups markets by league. Tap a league to see its games, which are organized into:
-
-* **Live Games** — matches in progress, with real-time score and clock
-* **Upcoming Games** — sorted by start time
-* **Top Questions** — props and other markets for the league
+The **Sports** category groups markets by league. Open one and its games split into **Live** (in progress, with the score and the clock), **Upcoming** (by start time), and **Top Questions** — the props and season-long markets for that league.
 
 ## Leagues
 
-Sports markets cover 30+ leagues, including:
+Thirty-odd leagues, including:
 
-* **Soccer** — Premier League, Champions League, Europa League, Conference League, La Liga, Bundesliga, Serie A, Ligue 1, Süper Lig, Eredivisie, Liga Portugal, MLS, Liga MX, Brasileirão, Libertadores, Saudi Pro League, and many more
-* **Basketball** — NBA, EuroLeague, WNBA
-* **American Football** — NFL
-* **Ice Hockey** — NHL
-* **Baseball** — MLB
-* **Combat sports** — MMA / UFC
-* **Golf** — PGA Tour and majors
-* **Motorsport** — Formula 1
+- **Soccer** — Premier League, Champions League, Europa League, Conference League, La Liga, Bundesliga, Serie A, Ligue 1, Süper Lig, Eredivisie, Liga Portugal, MLS, Liga MX, Brasileirão, Libertadores, Saudi Pro League and more
+- **Basketball** — NBA, EuroLeague, WNBA
+- **American football** — NFL
+- **Ice hockey** — NHL
+- **Baseball** — MLB
+- **Combat sports** — MMA and UFC
+- **Golf** — PGA Tour and the majors
+- **Motorsport** — Formula 1
 
-## Live Scores
+## Live scores
 
-Live matches show real-time scores and game status (for example, the current minute, period, or half-time) pulled from a live sports data feed and updated continuously. Finished games drop out of the Live section automatically.
+Scores and status — the minute, the period, half-time — come from a live sports data feed and update continuously. A finished game drops out of the Live section on its own rather than sitting there stale.
 
-## Trading a Match
+## Trading a match
 
-Open a match market and trade just like any other prediction market — pick an outcome (such as Home / Draw / Away, or a YES/NO prop), choose market or limit, enter your amount, and confirm. See [Predict](README.md) for the full flow.
+Same as any other market: pick an outcome (Home / Draw / Away, or a YES/NO prop), market or limit, an amount, confirm. [Predict](README.md) has the full flow.
 
-## Match Notifications
+## Notifications
 
-You can get push notifications for live goals, kick-off / half-time / full-time, and when a live score matches an exact-score prediction you hold. Manage these in [Notifications](../account/notifications.md).
+Goals, kick-off, half-time and full-time, and an alert when a live score matches an exact-score position you hold. All of it in [Notifications](../account/notifications.md).

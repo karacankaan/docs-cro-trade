@@ -1,97 +1,57 @@
 # Trade
 
-The Trade page is where you buy and sell Cronos tokens. It combines a live chart, token stats, a swap interface, and a real-time trade feed in a single view.
+One page per token: chart, stats, the swap panel, and every trade as it lands.
 
-## Opening a Trade Page
-
-Open a token's trade page by:
-
-* Tapping a token card on Explore, your Watchlist, or your portfolio
-* Searching for a token by name or address
-* Navigating directly to `cro.trade/<token-address>`
+Get there by tapping a token anywhere in the app, searching for it, or going straight to `cro.trade/<token-address>`.
 
 ## Chart
 
-A live candlestick chart powered by TradingView and real-time data.
+A TradingView candlestick chart on live data. Timeframes run 1s, 5s, 15s, 1m, 5m, 15m, 1h, 4h, 1D, 1W, and the one you pick is remembered. The open candle moves as trades happen.
 
-* **Many timeframes** — 1s, 5s, 15s, 1m, 5m, 15m, 1h, 4h, **1D**, and **1W**
-* **Live candles** — the current candle updates in real-time as trades happen
-* **Maker filter** — isolate an individual trader's buys/sells on the chart
-* Your selected timeframe is remembered for next time
+The **maker filter** isolates one trader's buys and sells on the chart, which is the fastest way to see what a wallet has actually been doing.
 
-## Token Stats
+## Stats
 
-Around the chart you'll see key metrics:
+Price in USD (tiny numbers use compact subscript rather than exponents), the change over your selected timeframe, market cap, pool liquidity, and volume for 5m / 1h / 6h / 24h split buy against sell with trade counts. Age and holder count show where they're known.
 
-* **Price** — current USD price (tiny prices use compact subscript notation)
-* **Price change** — for the selected timeframe
-* **Market Cap**
-* **Liquidity** — available liquidity in pools
-* **Volume** — for 5m / 1h / 6h / 24h, with the buy vs sell split and trade counts
-* **Age** and **holder count** when available
+## Buying and selling
 
-## Buy & Sell
+Pick a direction, pay with **CRO** or **USDC**, enter an amount or hit a quick-amount button. The estimate you see is already net of the routing fee. Then sign.
 
-The swap panel lets you trade directly:
+### One signature, often no gas
 
-1. **Select direction** — toggle between Buy and Sell
-2. **Choose payment token** — pay with **CRO**, **USDC**, or **USDT**
-3. **Enter amount** — type it, or use the quick-amount buttons
-4. **Review** — see the estimated output (already net of the routing fee)
-5. **Confirm** — sign once in your wallet
+Paying with **USDC**, the approval and the swap go through as a single sponsored transaction: one signature, and **no CRO needed at all** — the routing fee covers the gas.
 
-### One Signature, Often No Gas
+Paying with **CRO**, you pay the network gas yourself. If your wallet can't do the batched route, cro.trade falls back to the older approve-then-swap, which needs CRO for both steps.
 
-When you pay with **USDC or USDT**, the approval and the swap go through together as a single sponsored transaction: you sign once, and you need **no CRO at all** — the routing fee covers the gas.
+### Routing
 
-Paying with **CRO** you pay the network gas yourself, as normal. And if your wallet doesn't support the batched route, cro.trade falls back to the older approve-then-swap, which needs CRO for both steps.
-
-### Smart Routing
-
-cro.trade checks prices across multiple Cronos DEXes and bonding curves and routes your trade through the best path automatically.
+The router quotes across every Cronos DEX and bonding curve and takes the best path. You don't choose a venue.
 
 ### Slippage
 
-Slippage defaults to **0.5%**. Presets are **0.5%, 1%, 2%, and 5%**, or you can enter a custom tolerance — your choice is remembered for future trades.
+Defaults to **0.5%**, with presets at 0.5, 1, 2 and 5%, or a custom figure. Your setting is remembered.
 
-Beside the slippage control is a **MEV risk** badge — Low, Med, High, or Extreme — based on the pool's liquidity for the size you're trading. cro.trade also works out how much slippage the pool actually needs, and warns you when your setting is far above it, since the surplus is what a sandwich attack has to take.
+Next to it sits a **MEV risk** badge — Low, Med, High or Extreme — worked out from the pool's liquidity against the size you're trading. cro.trade also calculates how much slippage the pool actually needs and warns you when your setting sits far above it: that surplus is exactly what a sandwich attack has to take.
 
 ### Gas
 
-Choose how much you pay for on-chain speed: **Saver**, **Standard**, or **Instant**. It defaults to Instant, and your choice is remembered.
+**Saver**, **Standard** or **Instant**, defaulting to Instant. Remembered between trades.
 
-### Fees
+### Fee
 
-A **0.9% routing fee** is applied per trade — see [Fees](../reference/fees.md) and [Rewards](../rewards/README.md).
+**0.9%** per trade, built into the quote. See [Fees](../reference/fees.md) and [Rewards](../rewards/README.md).
 
-## Token Info
+## Token info
 
-Open the token info panel for a deeper look:
+The info panel goes deeper: total and circulating supply, holder count, the token and deployer addresses, any fee-on-transfer tax, a live risk check with the number of issues found, socials, other tokens the same deployer has launched, and all-time and period highs and lows.
 
-* **Overview** — price, market cap, liquidity, age
-* **Supply & holders** — total/circulating supply and holder count
-* **On-chain details** — token address (copyable), creator/dev address, and any fee-on-transfer tax
-* **Security** — a real-time risk check showing the number of detected risks
-* **Socials & links** — X, Telegram, Discord, and website
-* **Creator's other tokens** — other tokens launched by the same deployer
-* **Price performance** — all-time high/low and period high/low
+## Trade feed
 
-## Trade Feed
+Every trade on the token as it happens — direction, amount, USD value, trader and time, green for buys and red for sells. Tap a trader's avatar for their [profile](profiles.md), or tap the maker to filter both the feed and the chart marks down to that one wallet.
 
-A real-time feed of all trades on the current token. Each entry shows:
+Amounts are always positive; the buy/sell marker carries the direction.
 
-* **Buy/Sell** indicator (green for buys, red for sells)
-* **Amount** and **USD value**
-* **Trader** — tap their avatar to view their profile
-* **Time**
+## Holdings and holders
 
-Tap a maker to filter the feed (and chart marks) to just their trades.
-
-## Holdings & Holders
-
-* **Holdings** — tokens you currently hold, with balance, value, and P&L
-* **Holders** — the token's top holders and their share of supply
-
-## Amounts & Direction
-
-Trade amounts are always shown as positive values; the buy/sell indicator tells you the direction. The token's logo and links are derived from its on-chain address.
+**Holdings** is your own position in the token with balance, value and P&L. **Holders** ranks the token's largest holders by share of supply.

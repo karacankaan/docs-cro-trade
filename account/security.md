@@ -1,32 +1,23 @@
 # Security
 
-Secure your account with two-factor authentication and passkeys from **Settings → Security**.
+**Settings → Security** holds two-factor authentication, passkeys and account deletion.
 
-> Two-factor authentication and passkeys require an **email address linked** to your account. Add one in [Account & Wallets](wallets.md) first.
+> Both 2FA and passkeys need an **email address linked** to your account. Add one in [Account & Wallets](wallets.md) first.
 
-## Two-Factor Authentication (2FA)
+## Two-factor authentication
 
-Add a time-based one-time code from an authenticator app:
+A time-based code from an authenticator app. Enable it, scan the QR code (or copy the setup key by hand — on iOS you can drop it straight into Apple Passwords), then type the six-digit code back to confirm.
 
-1. Tap to enable 2FA
-2. Scan the **QR code** with your authenticator app (or copy the setup key manually). On iOS you can also add it to Apple Passwords
-3. Enter the 6-digit code to confirm
-
-Once enabled, you'll be asked for a code on sensitive actions. To turn it off, tap **Disable 2FA** and confirm.
+From then on you'll be asked for a code on sensitive actions. **Disable 2FA** turns it off again.
 
 ## Passkeys
 
-Passkeys let you sign in and confirm with Face ID, Touch ID, or a security key — no password needed.
+Face ID, Touch ID or a security key, instead of a password. **Add Passkey** registers one on the device you're using; **Manage** lists what you've registered and removes any you no longer want.
 
-* **Add Passkey** — register a new passkey on your device
-* **Manage** — view your registered passkeys and remove any you no longer use
+With at least one passkey registered, **Use Passkey for 2FA** replaces the six-digit code with a single biometric tap.
 
-### Use a Passkey for 2FA
+## Deleting your account
 
-If you have at least one passkey, you can switch on **Use Passkey for 2FA** to confirm with a single Face ID / Touch ID tap instead of typing a code.
+You can delete the account permanently from this page. You'll be asked to type **delete** to confirm.
 
-## Delete Account
-
-You can permanently delete your account from the Security page. You'll need to type **delete** to confirm.
-
-> Deleting removes your profile, username, and settings. **Your on-chain funds are unaffected** — they remain in your wallets.
+That removes your profile, username and settings. **It does not touch your money** — that's on-chain, in your wallets, and stays there.

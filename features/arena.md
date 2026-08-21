@@ -1,21 +1,15 @@
 # Arena
 
-**Arena** is a trading contest. While a contest is running, trades on one **featured token** count toward a leaderboard, and the traders at the top win prizes.
+A trading contest. While one is running, trades on a single **featured token** count toward a leaderboard and the top of that board wins prizes.
 
-## Opening Arena
+On mobile, the **Arena** banner on the home screen opens it, as does the Arena tab under Profiles. On desktop, `cro.trade/arena` slides the leaderboard over Explore.
 
-* **On mobile** — tap the **Arena** banner on the home screen, or open the **Arena** tab under Profiles
-* **On desktop** — go to `cro.trade/arena`, and the leaderboard opens over Explore
+## How it works
 
-## How It Works
+Only the featured token counts — everything else you trade is irrelevant to your standing — and you're ranked by **total USD volume** traded in it.
 
-* Only trades of the **featured token** count. Nothing else you trade affects your standing
-* You're ranked by your **total trading volume in USD** on that token
-* A **countdown** shows how long is left in the contest
-* The **podium** shows the top three and what each of them wins
-* Below it, the full leaderboard lists every ranked trader with their **volume** and **trade count**
-* When you're signed in, your own row is highlighted so you can see where you stand
+A countdown runs against the contest's end. The podium carries the top three and what each of them takes; the full board runs underneath with every ranked trader's volume and trade count. Signed in, your own row is highlighted.
 
-Tap any trader on the leaderboard to open their [profile](profiles.md). Each row also links out to their X, Telegram, and the Cronos explorer where those are available.
+Tap a trader to open their [profile](profiles.md); rows also link out to X, Telegram and the Cronos explorer where those exist. A card under the podium opens the featured token's [trade page](trade.md), so entering the contest doesn't mean leaving the board.
 
-A card under the podium opens the featured token's [trade page](trade.md), so you can trade it without leaving the leaderboard. Once a contest has ended, the board shows the final standings.
+Once a contest ends the board holds the final standings.

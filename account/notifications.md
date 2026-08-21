@@ -1,49 +1,38 @@
 # Notifications
 
-Stay on top of your trades, the traders you follow, and your prediction markets with push notifications. Manage everything from **Settings → Notifications**.
-
-## Enabling Push
-
-Turn on the **Push Notifications** master toggle to receive real-time alerts on your device. You can turn it off any time.
+**Settings → Notifications**. The master **Push Notifications** switch governs everything below it; turn it off and nothing arrives.
 
 ## Alerts
 
-* **Trader Alerts** — when a trader you follow makes a trade
-* **Orders** — your own perps order fills and TP/SL triggers
-* **Chat Mentions** — when someone @mentions you in a public [Chat](../social/chat.md) room
+- **Trader Alerts** — a trader you follow makes a trade
+- **Orders** — your own perps fills and TP/SL triggers
+- **Chat Mentions** — someone @mentions you in a public [Chat](../social/chat.md) room
 
-### Minimum Trade Size
+**Minimum trade size** keeps trader alerts to trades worth hearing about. Pick **Any**, **$100**, **$500** or **$1K**, or type an amount. This is only the default — any individual trader can override it.
 
-For trader alerts, set a minimum USD value so you're only notified about meaningful trades. Choose a preset (**Any**, **$100**, **$500**, **$1K**) or enter a custom amount. This is the default; you can override it for any individual trader.
+## Followed traders
 
-### Followed Traders
+Under the toggles is the list of traders you follow, each with its own switch, searchable by address, username or `.cro` name. Follow more from any [profile](../features/profiles.md) or from [alpha](../social/alpha.md).
 
-Below the alert toggles you'll find your list of followed traders, with a per-trader switch so you can turn alerts on or off for each one. The list is searchable by address, username, or .cro name. Follow more traders from any [profile](../features/profiles.md) or the [Feed](../social/feed.md).
+Tap one to tune their alerts on their own:
 
-Tap a trader to fine-tune their alerts on their own:
-
-* **Nametag** — a short name (up to 20 characters) shown in that trader's alerts, so you recognise them at a glance
-* **Minimum Volume** — a size floor just for this trader, which overrides your global default
-* **Alert Types** — choose which of their activity you hear about: **Cronos Trades**, **Perps**, and **Predict**
-* **Token Filter** — limit alerts to specific tokens, or mute tokens you never want to hear about. Muted tokens are always skipped
+- **Nametag** — a short name, up to 20 characters, that appears in that trader's alerts so you know who it is without reading the address
+- **Minimum Volume** — a size floor for this trader, overriding your global default
+- **Alert Types** — which of their activity reaches you: **Cronos Trades**, **Perps**, **Predict**
+- **Token Filter** — restrict alerts to particular tokens, or mute ones you never want to hear about. Muted tokens are skipped regardless of everything else
 
 ## Launchpad
 
-Off by default. Turn these on to follow new launches — see [Launchpad](../features/launchpad.md):
+Off by default. **New Tokens** fires when a token launches; **Graduations** when one graduates. See [Launchpad](../features/launchpad.md).
 
-* **New Tokens** — when a token launches on the launchpad
-* **Graduations** — when a launchpad token graduates
+Both filter by platform. New-token alerts narrow further to creators you follow, and to symbols containing or excluding a word you pick — alert on `cat`, skip anything with `test` in it.
 
-Both can be filtered by platform. New-token alerts can be narrowed further to **creators you follow only**, and to symbols that include or exclude a word you choose (for example, alert on `cat` but not on `test`).
+## Predict
 
-## Prediction Markets
+- **Results** — a market you hold resolves
+- **Live Goals** — goals in matches you follow
+- **Your Score Hits** — the live score matches an exact-score position you hold
+- **Match Status** — kick-off, half-time, full-time
+- **Price Alerts** — a market crosses your target probability
 
-Dedicated alerts for [Predict](../predict/README.md):
-
-* **Results** — when a market you hold a position in resolves
-* **Live Goals** — goal alerts for matches you follow
-* **Your Score Hits** — when a live score matches an exact-score prediction you hold
-* **Match Status** — kick-off, half-time, and full-time
-* **Price Alerts** — when a market hits your target probability
-
-See [Sports & Live Scores](../predict/sports.md) for more on match notifications.
+[Sports & Live Scores](../predict/sports.md) has more on the match ones.
