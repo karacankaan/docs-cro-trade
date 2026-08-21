@@ -16,13 +16,9 @@ Price in USD (tiny numbers use compact subscript rather than exponents), the cha
 
 ## Buying and selling
 
-Pick a direction, pay with **CRO** or **USDC**, enter an amount or hit a quick-amount button. The estimate you see is already net of the routing fee. Then sign.
+Pick a direction, pay with **CRO** or **USDC**, enter an amount or hit a quick-amount button. The estimate you see is already net of the routing fee. Then sign once.
 
-### One signature, often no gas
-
-Paying with **USDC**, the approval and the swap normally go through as a single sponsored transaction: one signature, and no CRO needed for it — the routing fee covers the gas.
-
-Paying with **CRO**, you pay the network gas yourself. If your wallet can't do the batched route, cro.trade falls back to the older approve-then-swap, which needs CRO for both steps.
+**USDC trades are gasless** — you don't need CRO for them. Paying with CRO, you pay the network gas as usual.
 
 ### Routing
 

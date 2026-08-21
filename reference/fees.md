@@ -4,7 +4,7 @@
 
 **0.9%** per trade, built into the quote you see. On top of that you pay network gas and whatever the underlying pools charge, both of which the router already accounts for when it picks a route.
 
-Paying with USDC, the gas is usually covered for you — see [One signature, often no gas](../features/trade.md#one-signature-often-no-gas).
+USDC trades are gasless.
 
 ## Perpetuals
 

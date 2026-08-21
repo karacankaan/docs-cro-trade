@@ -10,7 +10,7 @@ Connect an existing wallet, or sign in with email, Google, Apple, Telegram or a 
 
 A modern browser, or the [installed app](install-app.md).
 
-For spot trading, a little **CRO** for gas when you pay with CRO. Paying with USDC is normally gasless — cro.trade covers the gas, so a swap can go through with no CRO in the wallet. See [One signature, often no gas](../features/trade.md#one-signature-often-no-gas).
+For spot trading, a little **CRO** for gas — unless you pay with USDC, which is gasless.
 
 For perps and predictions, **USDC**. Bring it in from Cronos, Arbitrum or [any of six other chains](../features/wallet.md#adding-usdc-from-another-chain).
 

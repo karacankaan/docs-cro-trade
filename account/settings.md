@@ -12,7 +12,7 @@
 
 ## Help & Support
 
-Links out to these docs, [Discord](https://discord.gg/crotrade), [X](https://x.com/crotrade) and [Telegram](https://t.me/CronusAgent), plus [Privacy & Terms](../privacy-and-terms.md).
+Links out to these docs, [Discord](https://discord.gg/qQAkJd8MdS), [X](https://x.com/crotrade) and [Telegram](https://t.me/CronusAgent), plus [Privacy & Terms](../privacy-and-terms.md).
 
 To reach the team directly, open a ticket from [Chat](../social/chat.md#support).
 

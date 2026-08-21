@@ -26,6 +26,6 @@ There are native apps on the [App Store](https://apps.apple.com/app/id6762343829
 
 ## Links
 
-[cro.trade](https://cro.trade) · [@crotrade](https://x.com/crotrade) · [discord.gg/crotrade](https://discord.gg/crotrade)
+[cro.trade](https://cro.trade) · [@crotrade](https://x.com/crotrade) · [Discord](https://discord.gg/qQAkJd8MdS)
 
 Start at [Getting Started](getting-started/README.md).
