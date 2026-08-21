@@ -1,6 +1,6 @@
 # Connect Your Wallet
 
-Two ways in, and both end with a self-custodial wallet you hold the keys to.
+Two ways in, and both end with a self-custodial wallet whose private key you can export.
 
 ## Bringing your own wallet
 

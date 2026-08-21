@@ -2,13 +2,15 @@
 
 Shares in the outcome of a real-world event — sport, crypto, the economy, politics. The **Predict** tab opens them.
 
+> Eligibility and availability depend on where you are — see [Privacy & Terms](../privacy-and-terms.md).
+
 ## How a prediction market works
 
 A market has outcomes you can buy shares in, most often **YES** and **NO**, and a share's price *is* its probability: YES at $0.62 means the market puts the chance at about 62%.
 
 If your outcome wins, each share is worth **$1**. If it loses, **$0**. So your payout is your share count times a dollar, and your profit is that minus what you paid.
 
-You don't have to wait for the result. Shares sell back to the market at the current price whenever you want out, which is usually how a position ends.
+You don't have to wait for the result. Shares can be sold back into the market at the going price, which is usually how a position ends — as with any order book, that depends on there being a bid for them.
 
 ## Categories
 
@@ -28,7 +30,7 @@ Crypto markets are grouped by how long they run, so a five-minute "Up or Down" d
 
 ## Placing a trade
 
-Open a market for its outcomes, prices, order book and recent activity. Pick your outcome — YES or NO, or Home / Draw / Away on a match — then **Market** to buy at the best price now, or **Limit** to name your price and wait.
+Open a market for its outcomes, prices, order book and recent activity. Pick your outcome — YES or NO, or Home / Draw / Away on a match — then **Market** to buy at the best available price now, or **Limit** to name your price and wait.
 
 Enter an amount in USD and the panel works out the shares you get, what they cost, and your maximum payout if you're right. Swipe to confirm on mobile, submit on desktop. Minimum order is **$1**.
 

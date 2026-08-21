@@ -1,6 +1,6 @@
 # Arena
 
-A trading contest. While one is running, trades on a single **featured token** count toward a leaderboard and the top of that board wins prizes.
+A trading contest. While one is running, trades on a single **featured token** count toward a leaderboard, and prizes go to the top of that board as the contest sets them.
 
 On mobile, the **Arena** banner on the home screen opens it, as does the Arena tab under Profiles. On desktop, `cro.trade/arena` slides the leaderboard over Explore.
 

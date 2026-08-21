@@ -8,7 +8,7 @@ Three lists, switched by the sub-tabs.
 
 **Hot** ranks tokens by recent trading activity across Cronos DEXes. **Gainers** ranks the same universe by price change instead. Both follow the timeframe you pick — 5m, 1h, 6h or 24h — which changes the volume and change figures, not which tokens appear.
 
-**Launchpad** covers tokens still on a bonding curve, split into **New**, **Pre-Graduate** and **Graduated**. Those cards carry the platform badge, a progress bar toward graduation, and a **TAX** marker on fee-on-transfer tokens. [Launchpad](launchpad.md) has the detail.
+**Launchpad** covers newly launched tokens, grouped **New**, **Pre-Graduate** and **Graduated**. Those cards carry the platform badge, a progress bar where there's a bonding curve to fill, and a **TAX** marker on fee-on-transfer tokens. [Launchpad](launchpad.md) has the detail.
 
 ## Token cards
 

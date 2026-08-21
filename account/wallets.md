@@ -15,7 +15,7 @@ One account holds up to **20 wallets**, switchable at any time. **Settings → W
 - **Imported** — brought in from a private key
 - **External** — connected, like MetaMask, Rabby or WalletConnect
 
-Tap one to switch to it, copy its address, or export its private key — embedded wallets export, which is what makes them yours rather than ours. From the same screen you can create a fresh wallet, import one from a key, remove a created or imported wallet, or disconnect an external one.
+Tap one to switch to it, copy its address, or export its private key, which embedded wallets support. From the same screen you can create a fresh wallet, import one from a key, remove a created or imported wallet, or disconnect an external one.
 
 Embedded and external wallets can't be removed: export the first, disconnect the second.
 
@@ -29,4 +29,4 @@ Sign-in and wallet security run on [Privy](https://www.privy.io/).
 
 Two-factor authentication and passkeys are in [Security](security.md). Push alerts are in [Notifications](notifications.md).
 
-**Disconnect** signs you out. Nothing happens to your money — it's on-chain, in wallets you hold the keys to, and it's there when you come back.
+**Disconnect** signs you out. It doesn't move anything: your balances stay on-chain and are there when you sign back in.

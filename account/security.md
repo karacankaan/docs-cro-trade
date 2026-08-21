@@ -20,4 +20,4 @@ With at least one passkey registered, **Use Passkey for 2FA** replaces the six-d
 
 You can delete the account permanently from this page. You'll be asked to type **delete** to confirm.
 
-That removes your profile, username and settings. **It does not touch your money** — that's on-chain, in your wallets, and stays there.
+That removes your profile, username and settings. It doesn't move any funds: your balances are on-chain and stay in your wallets.

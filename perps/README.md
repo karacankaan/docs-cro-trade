@@ -2,7 +2,7 @@
 
 Perpetual futures: leveraged long or short, no expiry, settled in **USDC**. The **Perps** tab opens them.
 
-> Leverage cuts both ways and a position can be liquidated in full. Only risk what you can afford to lose.
+> Leverage cuts both ways and a position can be liquidated in full. Only risk what you can afford to lose. Eligibility and availability depend on where you are — see [Privacy & Terms](../privacy-and-terms.md).
 
 ## Markets
 
@@ -16,13 +16,13 @@ Pick a market, then **Long** or **Short**, then an order type:
 
 | Type | Behaviour |
 | --- | --- |
-| **Market** | Fills now at the best price, within your slippage setting |
+| **Market** | Fills now at the best available price, within your slippage setting |
 | **Limit** | Waits for your price or better |
 | **Stop** | Becomes a market order once a trigger price is hit |
 
 Set leverage on the slider — up to **50x**, depending on the market — choose **Cross** or **Isolated** margin, and enter a size in USD or drag the slider as a percentage of buying power.
 
-Two options before you submit. **Reduce Only** guarantees the order can only shrink or close an existing position, never open a new one. **Take Profit / Stop Loss** attaches an automatic exit; it can close any portion of the position, set either by target price or by gain in % or $.
+Two options before you submit. **Reduce Only** marks the order so it can only shrink or close an existing position rather than open a new one. **Take Profit / Stop Loss** attaches an automatic exit; it can close any portion of the position, set either by target price or by gain in % or $.
 
 Submit and confirm. A toast reports the status and your entry price, and the position appears in your **Positions** list.
 

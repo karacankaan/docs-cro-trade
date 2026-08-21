@@ -1,32 +1,36 @@
 # Launchpad
 
-Tokens that are still on their bonding curve, before they reach a DEX. It's the third tab under **Explore → Discover**.
+New tokens on Cronos, from the moment they launch. It's the third tab under **Explore → Discover**.
 
-## How a bonding curve works
+## Two kinds of launch
 
-The price rises as people buy, against a funding target set by the launch platform. Hit the target and the token **graduates**: liquidity moves onto a DEX and it trades like any other token from there.
+Most tokens here start on a **bonding curve**: the price rises as people buy, against a funding target set by the launch platform. Reach the target and the token **graduates** — liquidity moves onto a DEX and it trades like any other token from there.
+
+Tokens created on cro.trade skip that. They launch with a DEX position from the start, so there's no curve to fill and no graduation step.
 
 ## Platforms
 
-Five launch platforms on Cronos, each with its own badge and progress-bar colour: **CroFun**, **Puush**, **Banger**, **AgentFun** and **WolfStreet**. AgentFun is the AI-agent one; WolfStreet is the one that supports fee-on-transfer tokens.
+cro.trade tracks bonding-curve launches from **Puush** and **WolfStreet** — WolfStreet is the one that supports fee-on-transfer tokens — and lists tokens launched through **Banger**, which is the flow you get when you create one here.
 
-Each sets its own base token and its own graduation target, so a progress bar is always relative to that token's target, not a common one.
+Each curve platform sets its own base token and its own funding target, so a progress bar is always relative to that token's target rather than a shared one. Older tokens may carry a badge from a platform that no longer launches new ones.
 
 ## Stages
 
-**New** tokens are early on the curve. **Pre-Graduate** ones have made real progress toward the target. **Graduated** tokens have hit it and moved to a DEX — their cards drop the curve bar and show liquidity instead.
+Curve tokens are grouped as **New** (early on the curve), **Pre-Graduate** (real progress toward the target) and **Graduated** (target reached, now on a DEX — those cards drop the curve bar and show liquidity instead).
 
 ## Cards
 
-Name, symbol and logo; the platform badge; volume, market cap and price; the graduation bar while it's still on the curve; and a **TAX** marker where the token charges a fee on transfer.
+Name, symbol and logo; the platform badge; volume, market cap and price; the graduation bar while there's a curve to fill; and a **TAX** marker where the token charges a fee on transfer.
 
 ## Trading them
 
-Tap a card and use the same buy/sell panel as any other [trade](trade.md). Pre-graduation trades execute against the bonding curve; graduated ones go through the aggregator. You don't have to know which is which.
+Tap a card and use the same buy/sell panel as any other [trade](trade.md). A trade against a curve executes on the curve; anything already on a DEX goes through the aggregator. You don't have to know which is which.
 
-## Launching your own
+## Creating one
 
-The **Create Token** option on the Launchpad runs the CroFun creation flow — fill it in and your token starts its curve.
+**Create Token** on the Launchpad runs the **Banger** flow. Give it a name, ticker, description and image, add socials if you have them, and optionally an **initial buy** so you hold some supply from the start.
+
+Before you confirm, the panel shows the total supply, what your initial buy would get you and what share of supply that is, the launch fee in CRO, and the total against your balance. The launch fee is read from the contract, so what you see there is what you pay.
 
 ## Alerts
 

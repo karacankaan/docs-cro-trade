@@ -4,13 +4,13 @@
 
 ## What's here
 
-**Spot.** Buy and sell any Cronos token. The router checks every DEX and bonding curve on the chain and takes the best path. Charts go down to one-second candles, and the trade feed under them is live.
+**Spot.** Buy and sell any Cronos token. The router compares prices across Cronos DEXes and bonding curves and routes through the best one it finds. Charts go down to one-second candles, and the trade feed under them is live.
 
-**Launchpad.** New tokens while they're still on their bonding curve, from five launch platforms, with graduation progress on every card.
+**Launchpad.** Newly launched tokens, tracked from the moment they appear, with graduation progress on the ones still filling a bonding curve. You can launch your own from here too.
 
 **Perps.** Long or short crypto, stocks, commodities, indices and forex, up to 50x depending on the market. Settled in USDC.
 
-**Predict.** Buy shares in the outcome of a real-world event — sport, crypto, the economy, politics — and sell out whenever you like rather than waiting for the result.
+**Predict.** Buy shares in the outcome of a real-world event — sport, crypto, the economy, politics — and sell back into the market rather than holding to the result.
 
 **alpha and Chat.** Follow traders, see their trades land in real time, and talk about it in public rooms.
 
@@ -20,7 +20,7 @@
 
 Everything streams over a WebSocket, so prices, trades, order books and live scores move without a refresh.
 
-You can arrive with a wallet or without one. Connect MetaMask or Crypto.com Wallet, or sign in with email, Google, Apple, Telegram or a passkey — the last five create a self-custodial wallet for you. Either way the keys are yours.
+You can arrive with a wallet or without one. Connect MetaMask or Crypto.com Wallet, or sign in with email, Google, Apple, Telegram or a passkey — the last five create a self-custodial wallet for you, whose private key you can export at any point.
 
 There are native apps on the [App Store](https://apps.apple.com/app/id6762343829) and [Google Play](https://play.google.com/store/apps/details?id=com.crotrade.app), and the site installs as a PWA anywhere else.
 

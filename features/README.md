@@ -13,13 +13,13 @@
 
 ## Three markets, one login
 
-**Spot** — Cronos tokens at market price, through a router that quotes every venue on the chain. See [Trade](trade.md) and [Launchpad](launchpad.md).
+**Spot** — Cronos tokens at market price, through a router that compares Cronos venues and picks the best quote it finds. See [Trade](trade.md) and [Launchpad](launchpad.md).
 
 **Perpetuals** — leveraged long or short on crypto, stocks, commodities, indices and forex. See [Perps](../perps/README.md).
 
 **Prediction markets** — shares in the outcome of a real-world event. See [Predict](../predict/README.md).
 
-They share an account, a portfolio and a history, and both perps and predict settle in the same USDC balance you can move between them.
+They share an account, a portfolio and a history. Perps and Predict each hold their own USDC balance, and you can transfer between the two in-app.
 
 ## Across the app
 
