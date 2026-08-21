@@ -10,7 +10,6 @@ The rail down the left lists what you can open:
 
 - **cro.trade | alpha** — the [trade feed](alpha.md) and the alphas posted against it, rather than a conversation
 - **Cronos** — the chain in general
-- **BANGER CHAT** — shared with banger.meme: messages appear in both
 - **Token rooms** — a single token's community, CRONUS and NOOGLE among them
 - **Support** — your own private thread with the team
 
