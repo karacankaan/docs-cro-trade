@@ -20,7 +20,7 @@ Pick a market, then **Long** or **Short**, then an order type:
 | **Limit** | Waits for your price or better |
 | **Stop** | Becomes a market order once a trigger price is hit |
 
-Set leverage on the slider — up to **50x**, depending on the market — choose **Cross** or **Isolated** margin, and enter a size in USD or drag the slider as a percentage of buying power.
+Set leverage on the slider. Every market sets its own ceiling and the slider stops there: **40x** on BTC, lower on most other crypto, up to **50x** on a couple of forex pairs. Then choose **Cross** or **Isolated** margin and enter a size in USD, or drag the slider as a percentage of buying power.
 
 Two options before you submit. **Reduce Only** marks the order so it can only shrink or close an existing position rather than open a new one. **Take Profit / Stop Loss** attaches an automatic exit; it can close any portion of the position, set either by target price or by gain in % or $.
 

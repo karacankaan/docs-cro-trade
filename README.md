@@ -8,7 +8,7 @@
 
 **Launchpad.** Newly launched tokens, tracked from the moment they appear, with graduation progress on the ones still filling a bonding curve. You can launch your own from here too.
 
-**Perps.** Long or short crypto, stocks, commodities, indices and forex, up to 50x depending on the market. Settled in USDC.
+**Perps.** Long or short crypto, stocks, commodities, indices and forex. Each market sets its own cap — 40x on BTC, less on most things, 50x on a couple of forex pairs. Settled in USDC.
 
 **Predict.** Buy shares in the outcome of a real-world event — sport, crypto, the economy, politics — and sell back into the market rather than holding to the result.
 

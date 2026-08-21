@@ -29,7 +29,6 @@
 * [cro.trade | alpha](social/alpha.md)
 * [Chat](social/chat.md)
 * [Profiles](features/profiles.md)
-* [Arena](features/arena.md)
 
 ## Portfolio & Rewards
 
