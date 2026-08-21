@@ -30,7 +30,7 @@ Tap a card and use the same buy/sell panel as any other [trade](trade.md). A tra
 
 **Create Token** on the Launchpad runs the **Banger** flow. Give it a name, ticker, description and image, add socials if you have them, and optionally an **initial buy** so you hold some supply from the start.
 
-Before you confirm, the panel shows the total supply, what your initial buy would get you and what share of supply that is, the launch fee in CRO, and the total against your balance. The launch fee is read from the contract, so what you see there is what you pay.
+Before you confirm, the panel shows the total supply, what your initial buy would get you and what share of supply that is, the launch fee in CRO, and the total against your balance.
 
 ## Alerts
 

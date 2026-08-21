@@ -28,7 +28,7 @@ The router compares prices across Cronos DEXes and bonding curves and routes thr
 
 Defaults to **0.5%**, with presets at 0.5, 1, 2 and 5%, or a custom figure. Your setting is remembered.
 
-Next to it sits a **MEV risk** badge — Low, Med, High or Extreme — worked out from the pool's liquidity against the size you're trading. cro.trade also calculates how much slippage the pool actually needs and warns you when your setting sits far above it: that surplus is exactly what a sandwich attack has to take.
+Next to it sits a **MEV risk** badge — Low, Med, High or Extreme — based on the pool's liquidity against your trade size. If your slippage is set far above what the pool needs, it warns you.
 
 ### Gas
 

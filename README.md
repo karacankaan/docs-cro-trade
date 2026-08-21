@@ -18,7 +18,7 @@
 
 ## Worth knowing
 
-Everything streams over a WebSocket, so prices, trades, order books and live scores move without a refresh.
+Prices, trades, order books and live scores all update live — nothing needs refreshing.
 
 You can arrive with a wallet or without one. Connect MetaMask or Crypto.com Wallet, or sign in with email, Google, Apple, Telegram or a passkey — the last five create a self-custodial wallet for you, whose private key you can export at any point.
 

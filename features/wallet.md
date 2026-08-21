@@ -26,7 +26,7 @@ One log for spot, perps and predictions together, in either of two views.
 2. **Where from.** **Cronos cash**, **Perps cash** or **CRO**, each with its balance.
 3. **How much.** Enter the amount and swipe to confirm.
 
-Money lands in the same balance it left — your Cronos cash into their Cronos cash, Perps into their Perps, CRO into their CRO. There's no cross-venue send. If you want it in the other pot, move it there once on the transfer screen instead of on every send.
+Money lands in the same balance it left — your Cronos cash into their Cronos cash, Perps into their Perps, CRO into their CRO. There's no cross-venue send; use the transfer screen to move between your own balances first.
 
 **Predict is neither a source nor a destination.** Money in Predict is posted collateral rather than a spendable balance, so it comes out through withdraw.
 
@@ -42,9 +42,7 @@ It comes from **Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche or Cronos
 
 Pick the source and destination, enter an amount between **2 and 25,000 USDC**, choose **Fast** (seconds, small fee) or **Standard** (slower, cheaper), then approve on the source chain.
 
-The USDC is burned there and native USDC is issued on the destination — nothing wrapped or synthetic arrives. **You need no gas on the destination side**; cro.trade covers it. You do need enough of the source chain's native token to pay for the burn.
-
-The panel names each step as it happens — approving, burning, waiting for attestation, minting — so a transfer in flight is never a blank screen.
+What lands is native USDC, not a wrapped token. You need gas on the source chain only; cro.trade covers the other side. The panel shows each step while the transfer is in flight.
 
 ## Account and wallets
 

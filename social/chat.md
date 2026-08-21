@@ -10,7 +10,7 @@ The rail down the left lists what you can open:
 
 - **cro.trade | alpha** — the [trade feed](alpha.md) and the alphas posted against it, rather than a conversation
 - **Cronos** — the chain in general
-- **BANGER CHAT** — shared with banger.meme. It's one room behind two front ends: what you send here appears there, and the other way round
+- **BANGER CHAT** — shared with banger.meme: messages appear in both
 - **Token rooms** — a single token's community, CRONUS and NOOGLE among them
 - **Support** — your own private thread with the team
 
@@ -32,7 +32,7 @@ Three things expand on their own: a **token address** becomes a card with the li
 
 ## Alerts in the room
 
-Some messages come from the platform rather than a person. **Buy alerts** mark a notable buy of the room's token, carrying the buyer's face and the size. **Launch alerts** announce a new launchpad token from someone in the room, with a price card that stays current rather than frozen at the moment it was posted.
+Some messages come from the platform rather than a person. **Buy alerts** mark a notable buy of the room's token, carrying the buyer's face and the size. **Launch alerts** announce a new launchpad token from someone in the room, with a live price card.
 
 ## Mentions
 
