@@ -25,6 +25,7 @@ See [Predict](../predict/README.md). The minimum order is **$1**.
 ## Deposits & Withdrawals
 
 * Funding and withdrawing USDC may incur the relevant **network fees**
+* **Bringing USDC in from another chain** costs gas on the source chain. cro.trade covers the gas on the destination side. Choosing **Fast** adds a small transfer fee; **Standard** is slower and cheaper — see [Adding USDC from Another Chain](../features/wallet.md#adding-usdc-from-another-chain)
 * **Internal transfers** between your Perps and Predict balances are quick and low-cost — see [Internal Transfers](../perps/README.md#internal-transfers-perps-↔-predict)
 
 ## CRONUS Fee Sharing

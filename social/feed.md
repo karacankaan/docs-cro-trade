@@ -2,26 +2,33 @@
 
 The **Feed** is cro.trade's social trading timeline. It shows live trade activity and lets you share your take on the market with other traders.
 
-> **Rolling out:** the Feed is a mobile feature and is being rolled out gradually. If it's not yet available for your account, you'll see a "Feed Coming Soon" message when you tap the Feed tab.
+## Where to Find It
+
+The Feed lives in [Chat](chat.md), in the room headed **cro.trade | alpha** — the first one in the rail. On desktop it's behind the **ALPHA** button in the header. It's open to everyone, including signed-out readers.
 
 ## What's in the Feed
 
 The Feed streams real-time trade activity — spot trades on Cronos and perps trades — mixed with market signals and news. Posts are sorted newest first.
 
-## Tabs
+## Filters
 
-* **All** — activity from across the platform
-* **Following** — activity only from traders you follow
+Two filters narrow the list:
 
-## Sharing a Post
+* **All** / **Following** — everyone, or only the traders you follow
+* **Venue** — **All**, **Cronos**, **Perps**, or **Predictions**
 
-You can attach a comment to your own trade:
+## Sharing an Alpha
 
-1. Tap the composer and write your insight (up to 500 characters)
-2. Optionally tag it **Bullish** or **Bearish**
-3. Post it
+You can attach a comment — an *alpha* — to a position you hold:
 
-Posts attach to your most recent trade, so make a trade first if you haven't yet. Posting requires a connected wallet.
+1. Tap the **+** in the corner of the feed
+2. Pick one of your open positions from the list (sorted by value, largest first)
+3. Write your take — up to **200 characters**
+4. Post it
+
+You can also start an alpha straight from a position you're already looking at — the trade sheet, a token page, or Explore — in which case the token is already chosen and you go straight to the composer.
+
+Posting requires a connected wallet, and links in a post are restricted.
 
 ## Interacting
 

@@ -7,8 +7,8 @@ cro.trade is organized around a main navigation bar plus a dedicated search. Eve
 | Tab | Description |
 | --- | --- |
 | **Explore** | Discover trending tokens, top gainers, new launches, your watchlist, and perps markets |
-| **Predict** | Prediction markets — sports, crypto, economy, and politics |
-| **Feed** | Social trade feed — follow traders and share insights (rolling out) |
+| **Predict** | Prediction markets — crypto, football, sports, economy, and politics |
+| **Chat** | Live public rooms, plus the trade feed and support — the centre button on mobile, **ALPHA** on desktop |
 | **Perps** | Perpetual futures with leverage |
 | **Profile** | Your portfolio, holdings, trade history, rewards, and settings |
 | **Search** | Find tokens, traders, and perps markets from anywhere |
@@ -30,12 +30,13 @@ These are available across the app:
 * **Real-time updates** — prices, volumes, trades, order books, and live scores stream without refreshing.
 * **Profiles & following** — tap any trader to view their profile, holdings, and history, and follow them.
 * **Portfolio & history** — a unified view of your spot, perps, and prediction activity with P&L analytics.
-* **Notifications** — push alerts for trades, order fills, price targets, and prediction results.
+* **Notifications** — push alerts for trades, order fills, price targets, chat mentions, launches, and prediction results.
 * **Rewards** — protocol fee sharing for CRONUS holders and referral earnings.
+* **Chat** — live public rooms, with the trade [Feed](../social/feed.md) and support inside them. See [Chat](../social/chat.md).
 
 ## Desktop vs Mobile
 
 cro.trade adapts to your screen size:
 
-* **Mobile**: bottom navigation bar, swipe-friendly panels, compact cards, and the installable PWA app
+* **Mobile**: bottom navigation bar, swipe-friendly panels, compact cards, and native apps on the App Store and Google Play
 * **Desktop**: full-width layout with side panels, expanded charts, order books, and a persistent header

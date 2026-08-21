@@ -12,12 +12,13 @@ When a token launches on a bonding-curve platform:
 
 ## Supported Platforms
 
-cro.trade tracks launches from four platforms on Cronos, each with its own badge and progress-bar color:
+cro.trade tracks launches from five platforms on Cronos, each with its own badge and progress-bar color:
 
 * **CroFun** — Cronos-native launchpad
+* **Puush** — bonding-curve launches
+* **Banger** — bonding-curve launches
 * **AgentFun** — AI-agent-themed launches
 * **WolfStreet** — supports fee-on-transfer (tax) tokens
-* **PuushFun** — bonding-curve launches
 
 Each platform sets its own base token and graduation target. The progress shown on each card reflects how close the token is to its specific target.
 
@@ -34,7 +35,7 @@ Launchpad tokens move through three stages:
 Each card shows:
 
 * Token name, symbol, and logo
-* **Platform badge** (CroFun, AgentFun, WolfStreet, or PuushFun)
+* **Platform badge** (CroFun, Puush, Banger, AgentFun, or WolfStreet)
 * **Progress bar** toward graduation (for pre-graduation tokens)
 * Volume, market cap, and price
 * A **TAX** indicator if the token charges a fee-on-transfer tax
@@ -50,6 +51,10 @@ You can buy and sell launchpad tokens directly on cro.trade:
 ## Creating a Token
 
 On supported platforms you can launch your own token directly from cro.trade. Look for the **Create Token** option on the Launchpad (CroFun creation flow). Follow the prompts to set up your token and start its bonding curve.
+
+## Launch Alerts
+
+You can get a push notification when a new token launches or when one graduates, filtered by platform — and, for new launches, narrowed further to creators you follow or to symbols matching a word you choose. See [Notifications](../account/notifications.md).
 
 ## Graduation
 

@@ -10,9 +10,11 @@ You can get started in two ways:
 
 | Wallet | Type |
 | --- | --- |
+| **Crypto.com Wallet** | Mobile / Browser extension |
 | **MetaMask** | Browser extension / Mobile |
-| **Rabby Wallet** | Browser extension |
 | **WalletConnect** | QR code / Mobile wallets |
+
+Other browser wallets you already have installed — Rabby, for example — are detected automatically and appear in the same list.
 
 1. Tap **Connect** in the header
 2. Choose your wallet
@@ -26,6 +28,7 @@ If you don't have a crypto wallet, you can sign in with:
 * **Email** — enter your email and verify with a one-time code
 * **Google** — sign in with your Google account
 * **Apple** — sign in with your Apple ID
+* **Telegram** — sign in with your Telegram account
 * **Passkey** — use biometric authentication (Face ID, Touch ID, or a security key)
 
 These methods automatically create a self-custodial wallet for you, so you can start trading without installing a browser extension.
@@ -36,7 +39,7 @@ cro.trade supports **up to 20 wallets** per account. You can create new wallets,
 
 ## Linking Accounts
 
-You can link email, Google, and Apple to the same account so you're able to sign in different ways. Manage these from **Settings → Linked Accounts**.
+You can link email, Google, Apple, and Telegram to the same account so you're able to sign in different ways. Manage these from **Settings → Linked Accounts**.
 
 ## Networks
 

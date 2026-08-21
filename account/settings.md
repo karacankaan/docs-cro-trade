@@ -31,6 +31,8 @@ Language, currency, and default slippage options are shown here and are **coming
 * **Telegram** — [t.me/CronusAgent](https://t.me/CronusAgent)
 * **Privacy & Terms** — see [Privacy & Terms](../privacy-and-terms.md)
 
+To reach the team directly, open a support ticket from [Chat](../social/chat.md#support).
+
 ## Disconnect
 
 Tap **Disconnect** to sign out. Your funds remain on-chain — reconnect any time to keep trading.

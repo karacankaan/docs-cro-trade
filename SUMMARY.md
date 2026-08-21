@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Features Overview](features/README.md)
 
 ## Getting Started
 
@@ -25,6 +26,8 @@
 
 ## Social
 
+* [Arena](features/arena.md)
+* [Chat](social/chat.md)
 * [Feed](social/feed.md)
 * [Profiles](features/profiles.md)
 

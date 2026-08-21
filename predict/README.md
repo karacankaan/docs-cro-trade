@@ -19,14 +19,25 @@ So your potential payout is your number of shares × $1, and your profit is that
 Markets are organized into categories you can tab between:
 
 * **Trending** — the highest-volume markets across everything
-* **World Cup** — FIFA World Cup matches, groups, and winner odds
-* **Football** — American football (NFL, Super Bowl)
-* **Sports** — soccer, basketball, hockey, baseball, MMA, golf, F1, and more (30+ leagues). See [Sports & Live Scores](sports.md)
-* **Crypto** — Bitcoin, Ethereum, and altcoin price predictions
+* **Crypto** — Bitcoin, Ethereum, and altcoin price markets, with its own hub (below)
+* **Football** — soccer, with its own hub (below)
+* **Sports** — basketball, American football, hockey, baseball, MMA, golf, F1, and more (30+ leagues). See [Sports & Live Scores](sports.md)
 * **Economy** — Fed rates, inflation, GDP, trade, housing, and other macro topics
 * **Politics** — elections and political events
 
 You can search markets by name and sort by trending, volume, liquidity, newest, or ending soon.
+
+### Football Hub
+
+The **Football** category is soccer, and it has its own layout with three tabs:
+
+* **Matches** — live games first, then upcoming by kick-off time
+* **Questions** — season-long and prop markets, sorted by volume
+* **Ended** — games from the last few days
+
+### Crypto Hub
+
+The **Crypto** category groups markets by how long they run, so short-duration "Up or Down" markets don't get buried under season-long ones. Filter by **All**, **5 Min**, **15 Min**, **1 Hour**, **4 Hours**, **Daily**, **Weekly**, **Monthly**, **Yearly**, **Pre-Market**, or **ETF**.
 
 ## Placing a Trade
 
@@ -58,9 +69,20 @@ Predict markets settle in **USDC**. Open the deposit panel and fund your Predict
 
 * **Arbitrum USDC** — the most direct route
 * **Cronos** (CRO or USDC) — converted to USDC automatically
+* **From another chain** — bring native USDC across from **Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche, or Cronos** (see [Adding USDC from Another Chain](../features/wallet.md#adding-usdc-from-another-chain))
 * **From your Perps balance** — moved over in-app
 
-You can withdraw your USDC back out, and you can move funds between Perps and Predict using [internal transfers](../perps/README.md#internal-transfers-perps-↔-predict).
+### Withdrawing
+
+Open the withdraw panel, pick where the USDC should land, and enter the destination address. Predict withdrawals can go to:
+
+* **Cronos**
+* **Arbitrum**
+* **Base**
+* **Polygon**
+* **Solana**
+
+You can also move funds between Perps and Predict using [internal transfers](../perps/README.md#internal-transfers-perps-↔-predict).
 
 ## Price Alerts
 

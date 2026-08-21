@@ -42,8 +42,9 @@ From **Settings → Linked Accounts**, manage how you sign in:
 * **Email**
 * **Google**
 * **Apple**
+* **Telegram**
 
-You can link and unlink Google and Apple (you'll be reminded to keep at least one sign-in method). Sign-in and wallet security are powered by [Privy](https://www.privy.io/).
+You can link and unlink Google, Apple, and Telegram (you'll be reminded to keep at least one sign-in method). Sign-in and wallet security are powered by [Privy](https://www.privy.io/).
 
 ## Security & Notifications
 

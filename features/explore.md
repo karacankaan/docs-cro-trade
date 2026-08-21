@@ -32,7 +32,7 @@ Newly launched tokens on their bonding curve, grouped into three stages:
 * **Pre-Graduate** — tokens that have made progress toward graduation
 * **Graduated** — tokens that completed their curve and now trade on a DEX
 
-Each launchpad card shows the launch platform badge (CroFun, AgentFun, WolfStreet, or PuushFun), a bonding-curve progress bar, volume, market cap, and a tax indicator for fee-on-transfer tokens. See [Launchpad](launchpad.md) for full details.
+Each launchpad card shows the launch platform badge (CroFun, Puush, Banger, AgentFun, or WolfStreet), a bonding-curve progress bar, volume, market cap, and a tax indicator for fee-on-transfer tokens. See [Launchpad](launchpad.md) for full details.
 
 ### Watchlist
 

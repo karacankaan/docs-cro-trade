@@ -1,9 +1,9 @@
 # Install the App
 
-You can get cro.trade as a native app or install it as a Progressive Web App (PWA) on your home screen:
+cro.trade is available as a native app on both mobile platforms, and as a Progressive Web App (PWA) you can install from any browser:
 
-* **Android** — download the app from the **[Google Play Store](https://play.google.com/store/apps/details?id=com.crotrade.app)**
-* **iPhone** — join the **[TestFlight](https://testflight.apple.com/join/bfkAWsqN)** beta, or install the **PWA** from Safari
+* **iPhone** — download from the **[App Store](https://apps.apple.com/app/id6762343829)**
+* **Android** — download from the **[Google Play Store](https://play.google.com/store/apps/details?id=com.crotrade.app)**
 * **Desktop** — install the PWA from Chrome or Edge
 
 ## Why Install?
@@ -11,11 +11,24 @@ You can get cro.trade as a native app or install it as a Progressive Web App (PW
 * **Full-screen mode** — no browser toolbar taking up space
 * **Instant access** — launch from your home screen like any app
 * **Faster loading** — cached assets for quicker startup
-* **Push notifications** — get alerts for trades, order fills, price targets, and prediction results (see [Notifications](../account/notifications.md))
+* **Push notifications** — get alerts for trades, order fills, price targets, chat mentions, and prediction results (see [Notifications](../account/notifications.md))
+
+## iPhone — App Store
+
+The cro.trade iOS app is on the **[App Store](https://apps.apple.com/app/id6762343829)** — tap **Get** to install it.
+
+The listing isn't available in every storefront. Where it isn't, the app shows you a **TestFlight** link instead, which is Apple's beta channel — install TestFlight, join via the link, and you get the same app.
+
+Prefer the web app? You can also install the PWA from Safari:
+
+1. Open [cro.trade](https://cro.trade) in **Safari**
+2. Tap the **Share** button (square with arrow) at the bottom
+3. Scroll down and tap **Add to Home Screen**
+4. Tap **Add** to confirm
 
 ## Android — Google Play Store
 
-The cro.trade Android app is available on the **[Google Play Store](https://play.google.com/store/apps/details?id=com.crotrade.app)** — tap **Install** to get it.
+The cro.trade Android app is on the **[Google Play Store](https://play.google.com/store/apps/details?id=com.crotrade.app)** — tap **Install** to get it.
 
 Prefer the web app? You can also install the PWA:
 
@@ -23,17 +36,6 @@ Prefer the web app? You can also install the PWA:
 2. Tap the **three-dot menu** in the top-right
 3. Tap **Add to Home Screen** or **Install App**
 4. Tap **Install** to confirm
-
-## iPhone — PWA or TestFlight
-
-**Install the PWA (Safari):**
-
-1. Open [cro.trade](https://cro.trade) in **Safari**
-2. Tap the **Share** button (square with arrow) at the bottom
-3. Scroll down and tap **Add to Home Screen**
-4. Tap **Add** to confirm
-
-**Join the TestFlight beta:** for the best and fastest experience, get the native iOS app via Apple's **[TestFlight](https://testflight.apple.com/join/bfkAWsqN)**, then follow the prompts to install.
 
 ## Install on Desktop (Chrome / Edge)
 

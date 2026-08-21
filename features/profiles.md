@@ -28,7 +28,7 @@ Tap **Follow** on any profile to add them to your following list. Following is t
 
 Set up your own profile from **Settings → Account → Profile**:
 
-* **Username** — 3–20 characters, with a live availability check
+* **Username** — up to 20 characters, with a live availability check
 * **Profile photo** — upload an image (or short GIF/video); it's resized automatically
 * **Bio**
 * **Social links** — X, Telegram, and website

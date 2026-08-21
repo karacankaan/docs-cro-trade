@@ -6,12 +6,13 @@ Open the **Perps** tab in the navigation bar to get started.
 
 ## Available Markets
 
-Perps cover four market categories:
+Perps cover five market categories, each its own tab in the market picker — plus a **Watchlist** tab for the ones you star:
 
 * **Crypto** — Bitcoin, Ethereum, and many other coins
 * **Stocks** — major US companies
 * **Commodities** — gold, oil, and more
-* **Forex / Indices** — currency pairs and index products
+* **Indices** — index products
+* **Forex** — currency pairs
 
 Each market card shows the current price and 24h change, daily **volume**, the current **funding rate**, **open interest**, and the maximum leverage available.
 
@@ -42,7 +43,7 @@ A toast notification shows the order status and your entry price. Filled positio
 | **Take Profit (TP)** | Auto-exits at a profit target |
 | **Stop Loss (SL)** | Auto-exits to limit losses |
 
-TP/SL can close a partial amount (25/50/75/100%) and can be set by target price or by gain in % or $.
+TP/SL can close any portion of the position — a slider sets how much — and can be set by target price or by gain in % or $.
 
 ### Slippage (market orders)
 
@@ -85,8 +86,19 @@ Perps trade in USDC held in your Perps account. To add funds, open the wallet pa
 
 * **From Cronos (CRO or USDC)** — converted to USDC automatically
 * **From Arbitrum USDC** — a direct deposit
+* **From another chain** — bring native USDC across from **Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche, or Cronos**
 
-Funds typically arrive within a few minutes. To take funds out, use **Withdraw** and choose your destination.
+See [Adding USDC from Another Chain](../features/wallet.md#adding-usdc-from-another-chain) for how the cross-chain route works.
+
+Funds typically arrive within a few minutes.
+
+### Withdrawing
+
+Use **Withdraw**, pick the network you want the USDC to land on, and enter the destination address. Perps withdrawals can go to:
+
+* **Cronos**
+* **Arbitrum**
+* **Solana**
 
 ### Internal Transfers (Perps ↔ Predict)
 

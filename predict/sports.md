@@ -1,6 +1,8 @@
 # Sports & Live Scores
 
-Sports are a major part of [Predict](README.md). You can trade on matches across dozens of leagues, follow live scores in real time, and explore tournament-specific hubs like the World Cup.
+Sports are a major part of [Predict](README.md). You can trade on matches across dozens of leagues and follow live scores in real time.
+
+> Soccer has a category of its own — **Football** — rather than sitting under Sports. See [Football Hub](README.md#football-hub).
 
 ## Browsing Sports
 
@@ -14,7 +16,7 @@ The **Sports** category groups markets by league. Tap a league to see its games,
 
 Sports markets cover 30+ leagues, including:
 
-* **Soccer** — FIFA World Cup, Premier League, Champions League, Europa League, La Liga, Bundesliga, Serie A, Ligue 1, MLS, Liga MX, Brasileirão, and many more
+* **Soccer** — Premier League, Champions League, Europa League, Conference League, La Liga, Bundesliga, Serie A, Ligue 1, Süper Lig, Eredivisie, Liga Portugal, MLS, Liga MX, Brasileirão, Libertadores, Saudi Pro League, and many more
 * **Basketball** — NBA, EuroLeague, WNBA
 * **American Football** — NFL
 * **Ice Hockey** — NHL
@@ -26,14 +28,6 @@ Sports markets cover 30+ leagues, including:
 ## Live Scores
 
 Live matches show real-time scores and game status (for example, the current minute, period, or half-time) pulled from a live sports data feed and updated continuously. Finished games drop out of the Live section automatically.
-
-## World Cup Hub
-
-The World Cup has its own dedicated tab with:
-
-* **Predictions** — group standings, team winner odds, and upcoming matches
-* **Groups** — the tournament's group tables (games played, wins/draws/losses, points)
-* **Games** — upcoming and live matches by date
 
 ## Trading a Match
 
