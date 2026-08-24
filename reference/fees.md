@@ -22,6 +22,16 @@ Redeeming winning shares is free — they're worth $1 each. Minimum order is **$
 
 Funding and withdrawing USDC costs the relevant network fees.
 
-Bringing USDC in from another chain costs you no gas at all: cro.trade sponsors the transaction on both the source and the destination side. From **Arbitrum** and **Base** the transfer itself carries a small network fee, around **0.014%** and **0.013%**; from **Polygon** and **Solana** there is none. Topping up your **Perps** balance adds a flat **~$0.20-0.30** on top, the same amount whatever the size of the transfer. Whatever applies is shown on screen before you confirm. See [Adding USDC from another chain](../features/wallet.md#adding-usdc-from-another-chain).
+Coming in from another chain costs you no gas: cro.trade sponsors both sides. What the transfer itself costs:
+
+| From | Into Cronos or Predict | Into Perps |
+| --- | --- | --- |
+| **Cronos** | up to 0.02% | free |
+| **Arbitrum** | 0.014% | 0.014% + ~$0.20 |
+| **Base** | 0.013% | 0.013% + ~$0.28 |
+| **Polygon** | free | ~$0.28 |
+| **Solana** | free | ~$0.28 |
+
+The flat amount on a Perps deposit pays destination gas, so it's the same whether you move $5 or $5,000. Whatever applies is shown before you confirm. See [Adding USDC from another chain](../features/wallet.md#adding-usdc-from-another-chain).
 
 Moving USDC between your Perps and Predict balances is quick and cheap — see [Transfers between Perps and Predict](../perps/README.md#transfers-between-perps-and-predict).
