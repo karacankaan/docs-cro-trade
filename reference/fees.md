@@ -28,12 +28,12 @@ Moving USDC in from a chain you already hold it on costs you no gas: cro.trade s
 | --- | --- | --- | --- |
 | **Cronos** | | free | up to 0.02% |
 | **Arbitrum** | 0.014% | free | 0.014% |
-| **Base** | 0.013% | ~$0.28 | 0.013% |
-| **Polygon** | free | ~$0.28 | free |
+| **Base** | 0.013% | free | 0.013% |
+| **Polygon** | free | free | free |
 | **Solana** | free | free | free |
 | **HyperEVM** | free | free | free |
 
-The percentages are the network's own fee for settling in seconds instead of twenty minutes, taken out of the amount. The flat amounts pay destination gas, so they're the same whether you move $5 or $5,000. Whatever applies is shown before you confirm.
+The percentages are the network's own fee for settling in seconds instead of twenty minutes, taken out of the amount. Where a row says free, nothing is deducted at all. Whatever applies is shown before you confirm.
 
 Your first ever Perps deposit also opens the account, which costs **$1** once. See [Adding USDC from another chain](../features/wallet.md#adding-usdc-from-another-chain).
 
