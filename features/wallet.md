@@ -38,11 +38,11 @@ Both settle in **USDC**. Deposit, withdraw and move money between them from thei
 
 If your USDC is somewhere else, you don't have to bridge it yourself. **Add USDC from another chain** does it in one flow.
 
-It comes from **Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche or Cronos**, and lands in your **Cronos** wallet, your **Perps** balance or your **Predict** balance.
+It comes from **Arbitrum, Base, Polygon or Solana**, and lands in your **Cronos** wallet, your **Perps** balance or your **Predict** balance.
 
-Pick the source and destination, enter an amount between **2 and 25,000 USDC**, choose **Fast** (seconds, small fee) or **Standard** (slower, cheaper), then approve on the source chain.
+Pick the source and destination, enter an amount and confirm. Each route has its own minimum, between **$1 and $5**, and the screen tells you which one applies before you can continue.
 
-What lands is native USDC, not a wrapped token. You need gas on the source chain only; cro.trade covers the other side. The panel shows each step while the transfer is in flight.
+What lands is native USDC, not a wrapped token. You pay no gas on either side: cro.trade sponsors the transaction on the source chain as well as the destination. [Fees](../reference/fees.md#moving-money) covers what the transfer itself costs. The panel shows each step while it is in flight.
 
 ## Account and wallets
 
