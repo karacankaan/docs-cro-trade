@@ -22,16 +22,19 @@ Redeeming winning shares is free — they're worth $1 each. Minimum order is **$
 
 Funding and withdrawing USDC costs the relevant network fees.
 
-Coming in from another chain costs you no gas: cro.trade sponsors both sides. What the transfer itself costs:
+Moving USDC in from a chain you already hold it on costs you no gas: cro.trade sponsors both sides. What the transfer itself costs:
 
-| From | Into Cronos or Predict | Into Perps |
-| --- | --- | --- |
-| **Cronos** | up to 0.02% | free |
-| **Arbitrum** | 0.014% | 0.014% + ~$0.20 |
-| **Base** | 0.013% | 0.013% + ~$0.28 |
-| **Polygon** | free | ~$0.28 |
-| **Solana** | free | ~$0.28 |
+| From | To Cronos | To Perps | To Predict |
+| --- | --- | --- | --- |
+| **Cronos** | | free | up to 0.02% |
+| **Arbitrum** | 0.014% | free | 0.014% |
+| **Base** | 0.013% | ~$0.28 | 0.013% |
+| **Polygon** | free | ~$0.28 | free |
+| **Solana** | free | ~$0.28 | free |
+| **HyperEVM** | free | free | free |
 
-The flat amount on a Perps deposit pays destination gas, so it's the same whether you move $5 or $5,000. Whatever applies is shown before you confirm. See [Adding USDC from another chain](../features/wallet.md#adding-usdc-from-another-chain).
+The percentages are the network's own fee for settling in seconds instead of twenty minutes, taken out of the amount. The flat amounts pay destination gas, so they're the same whether you move $5 or $5,000. Whatever applies is shown before you confirm.
+
+Your first ever Perps deposit also opens the account, which costs **$1** once. See [Adding USDC from another chain](../features/wallet.md#adding-usdc-from-another-chain).
 
 Moving USDC between your Perps and Predict balances is quick and cheap — see [Transfers between Perps and Predict](../perps/README.md#transfers-between-perps-and-predict).

@@ -38,7 +38,7 @@ Both settle in **USDC**. Deposit, withdraw and move money between them from thei
 
 If your USDC is somewhere else, you don't have to bridge it yourself. **Add USDC from another chain** does it in one flow.
 
-It comes from **Arbitrum, Base, Polygon or Solana**, and lands in your **Cronos** wallet, your **Perps** balance or your **Predict** balance.
+It comes from **Arbitrum, Base, Polygon, Solana or HyperEVM**, and lands in your **Cronos** wallet, your **Perps** balance or your **Predict** balance.
 
 Pick the source and destination, enter an amount and confirm. Each route has its own minimum, between **$1 and $5**, and the screen tells you which one applies before you can continue.
 
