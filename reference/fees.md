@@ -26,7 +26,7 @@ Moving USDC in from a chain you already hold it on costs you no gas: cro.trade s
 
 | From | To Cronos | To Perps | To Predict |
 | --- | --- | --- | --- |
-| **Cronos** | | free | free |
+| **Cronos** | free | free | free |
 | **Arbitrum** | 0.014% | free | 0.014% |
 | **Base** | 0.013% | 0.013% | 0.013% |
 | **Polygon** | free | free | free |
